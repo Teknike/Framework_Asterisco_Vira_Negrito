@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
-    <id>AsteriscoViraNegritoFRW</id>
+    <id>AsteriscoViraNegrito</id>
     <version>1.0.0</version>
-    <title>AsteriscoViraNegritoFRW</title>
+    <title>AsteriscoViraNegrito</title>
     <authors>ADD AUTHOR</authors>
     <owners>ADD OWNER</owners>
     <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
@@ -16,6 +16,7 @@
     <tags>TwinCAT HMI</tags>
     <dependencies>
       <group targetFramework="native1.12-tchmi">
+        <dependency id="Beckhoff.TwinCAT.HMI.Framework" version="12.754.4" />
       </group>
     </dependencies>
   </metadata>
@@ -23,7 +24,7 @@
     <file src="LICENSE.txt" target="" />
     <file src="**\*"
           target="runtimes\native1.12-tchmi\"
-          exclude=".eslintrc.json;**\*.nuspec;**\*.tpl.json;**\*.hmi*proj;**\~*;**\*.tmp;**\tmp*;**\*.user;**\tsconfig.json;**\*.log;**\*.bak;**\obj\**\*;**\.hmiframework\*;**\.hmiframework\**\*;**\.hmipkgs\**\*;packages.config;packages.xsd;.hmiframework\**\*;.git;.gitignore;.gitattributes"/>
+          exclude=".eslintrc.json;**\*.nuspec;**\*.tpl.json;**\*.hmi*proj;**\~*;**\*.tmp;**\tmp*;**\*.user;**\tsconfig.json;**\*.log;**\*.bak;**\obj\**\*;packages.config;packages.xsd;.hmiframework\**\*;.hmipkgs\**\*;.git;.gitignore;.gitattributes" />
     <file src="images\logo.png" target="images\" />
   </files>
 </package>

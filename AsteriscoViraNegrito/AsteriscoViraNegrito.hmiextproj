@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
@@ -16,9 +16,11 @@
     <TargetFramework>native1.12-tchmi</TargetFramework>
     <EnableTypeScript>true</EnableTypeScript>
     <ProjectTypeGuids>{3B740506-4966-4147-AB1F-357FE08946EA}</ProjectTypeGuids>
-    <ProjectGuid>86c071a5-af49-4e13-b1c4-373626e2fe70</ProjectGuid>
-    <ProjectName>AsteriscoViraNegritoFRW</ProjectName>
-    <Name>AsteriscoViraNegritoFRW</Name>
+    <ProjectGuid>eea6b123-93c6-4a8d-be0d-be9c274186d6</ProjectGuid>
+    <ProjectName>AsteriscoViraNegrito</ProjectName>
+    <Name>AsteriscoViraNegrito</Name>
+    <HmiInitial>1.12.754.4</HmiInitial>
+    <HmiRecent>1.12.754.4</HmiRecent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|TwinCAT HMI' ">
     <PlatformTarget>TwinCAT HMI</PlatformTarget>
@@ -31,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
     <TypeScriptToolsVersion>3.9</TypeScriptToolsVersion>
     <TypeScriptShowVersionWarning>false</TypeScriptShowVersionWarning>
-    <DefaultNamespace>AsteriscoViraNegritoFRW</DefaultNamespace>
+    <DefaultNamespace>AsteriscoViraNegrito</DefaultNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|TwinCAT HMI' ">
     <PlatformTarget>TwinCAT HMI</PlatformTarget>
@@ -42,7 +44,7 @@
     <WarningLevel>4</WarningLevel>
     <TypeScriptToolsVersion>3.9</TypeScriptToolsVersion>
     <TypeScriptShowVersionWarning>false</TypeScriptShowVersionWarning>
-    <DefaultNamespace>AsteriscoViraNegritoFRW</DefaultNamespace>
+    <DefaultNamespace>AsteriscoViraNegrito</DefaultNamespace>
   </PropertyGroup>
   <PropertyGroup Label="TwinCatHMI">
     <TcHmiExtensionTypes>{CC169D49-EEDD-4BAF-8151-63DF12EDD7B4}</TcHmiExtensionTypes>
@@ -55,9 +57,6 @@
   <Import Project="$(TwinCATHmi_Tasks)" />
   <Import Project="$(TwinCATHmi_Targets)" />
   <ItemGroup>
-    <Content Include=".eslintrc.json">
-      <Visible>false</Visible>
-    </Content>
     <Content Include="tsconfig.tpl.json">
       <SubType>Content</SubType>
       <Visible>true</Visible>
@@ -70,7 +69,21 @@
     <HmiManifest Include="Manifest.json" />
     <Content Include="LICENSE.txt" />
     <Content Include="Images\logo.png" />
-    <Content Include="AsteriscoViraNegritoFRW.nuspec" />
+    <Content Include="AsteriscoViraNegrito.nuspec" />
+    <Content Include=".eslintrc.json">
+      <Visible>false</Visible>
+    </Content>
+    <Content Include="AsteriscoViraNegritoControl\Icons\16x16.png" />
+    <Content Include="AsteriscoViraNegritoControl\Icons\24x24.png" />
+    <Content Include="AsteriscoViraNegritoControl\Icons\32x32.png" />
+    <Content Include="AsteriscoViraNegritoControl\Icons\64x64.png" />
+    <Content Include="AsteriscoViraNegritoControl\Template.html" />
+    <Content Include="AsteriscoViraNegritoControl\Themes\Base\Style.css" />
+    <Content Include="AsteriscoViraNegritoControl\Themes\Base-Dark\Style.css" />
+    <Content Include="AsteriscoViraNegritoControl\AsteriscoViraNegritoControl.ts" />
+    <Content Include="AsteriscoViraNegritoControl\Style.css" />
+    <Content Include="AsteriscoViraNegritoControl\Description.json" />
+    <Content Include="AsteriscoViraNegritoControl\Schema\Types.Schema.json" />
     <Content Include=".tfignore">
       <SubType>Content</SubType>
       <Visible>false</Visible>
@@ -87,6 +100,15 @@
       <SubType>Content</SubType>
       <Visible>false</Visible>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AsteriscoViraNegritoControl\" />
+    <Folder Include="AsteriscoViraNegritoControl\Icons\" />
+    <Folder Include="AsteriscoViraNegritoControl\Schema\" />
+    <Folder Include="AsteriscoViraNegritoControl\Themes\" />
+    <Folder Include="AsteriscoViraNegritoControl\Themes\Base-Dark\" />
+    <Folder Include="AsteriscoViraNegritoControl\Themes\Base\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
   <Import Project="$(TypeScriptSdkDir)\$(TypeScriptToolsVersion)\build\Microsoft.TypeScript.targets" Condition="Exists('$(TypeScriptSdkDir)\$(TypeScriptToolsVersion)\build\Microsoft.TypeScript.targets')" />

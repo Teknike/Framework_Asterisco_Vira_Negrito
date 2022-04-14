@@ -1,17 +1,14 @@
-﻿// Keep these lines for a best effort IntelliSense of Visual Studio 2017 and higher.
-/// <reference path="./../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.754.4/runtimes/native1.12-tchmi/TcHmi.d.ts" />
-
 /*
- * Generated 4/14/2022 8:18:21 AM
+ * Generated 4/13/2022 3:14:27 PM
  * Copyright (C) 2022
  */
 var TcHmi;
-(function (/** @type {globalThis.TcHmi} */ TcHmi) {
+(function (TcHmi) {
     let Controls;
-    (function (/** @type {globalThis.TcHmi.Controls} */ Controls) {
-        let AsteriscoNegrito;
-        (function (AsteriscoNegrito) {
-            class AsteriscoParaNegrito extends TcHmi.Controls.System.TcHmiControl {
+    (function (Controls) {
+        let AsteriscoViraNegrito;
+        (function (AsteriscoViraNegrito) {
+            class AsteriscoViraNegritoControl extends TcHmi.Controls.System.TcHmiControl {
                 /*
                 Attribute philosophy
                 --------------------
@@ -30,8 +27,6 @@ var TcHmi;
                 constructor(element, pcElement, attrs) {
                     /** Call base class constructor */
                     super(element, pcElement, attrs);
-
-                    var sTextointerno = null;
                 }
                 /**
                   * If raised, the control object exists in control cache and constructor of each inheritation level was called.
@@ -39,9 +34,7 @@ var TcHmi;
                   */
                 __previnit() {
                     // Fetch template root element
-                    this.__elementTemplateRoot = this.__element.find('.TcHmi_Controls_AsteriscoNegrito_AsteriscoParaNegrito-Template');
-                    this.__elementContainer = this.__elementTemplateRoot.find('.tchmi_container_padrao');
-                    this.__elementText = this.__elementTemplateRoot.find('.tchmi_titulo');
+                    this.__elementTemplateRoot = this.__element.find('.TcHmi_Controls_AsteriscoViraNegrito_AsteriscoViraNegritoControl-Template');
                     if (this.__elementTemplateRoot.length === 0) {
                         throw new Error('Invalid Template.html');
                     }
@@ -61,7 +54,9 @@ var TcHmi;
                 */
                 __attach() {
                     super.__attach();
-
+                    /**
+                     * Initialize everything which is only available while the control is part of the active dom.
+                     */
                 }
                 /**
                 * Is called by tachcontrol() after the control instance is no longer part of the current DOM.
@@ -69,7 +64,10 @@ var TcHmi;
                 */
                 __detach() {
                     super.__detach();
-                    
+                    /**
+                     * Disable everything which is not needed while the control is not part of the active dom.
+                     * No need to listen to events for example!
+                     */
                 }
                 /**
                 * Destroy the current control instance.
@@ -87,29 +85,13 @@ var TcHmi;
                     * Free resources like child controls etc.
                     */
                 }
-
-
-                getTexto = function () {
-                    return this.sTextointerno;
-                }
-
-                setTexto(newValue) {
-                    this.sTextointerno = newValue;
-                    var element = this.__elementText.get(0);
-                    element.innerHTML = this.sTextointerno;
-                }
-
-
-
-
-
-
             }
-            AsteriscoNegrito.AsteriscoParaNegrito = AsteriscoParaNegrito;
-        })(AsteriscoNegrito = Controls.AsteriscoNegrito || (Controls.AsteriscoNegrito = {}));
+            AsteriscoViraNegrito.AsteriscoViraNegritoControl = AsteriscoViraNegritoControl;
+        })(AsteriscoViraNegrito = Controls.AsteriscoViraNegrito || (Controls.AsteriscoViraNegrito = {}));
     })(Controls = TcHmi.Controls || (TcHmi.Controls = {}));
 })(TcHmi || (TcHmi = {}));
 /**
 * Register Control
 */
-TcHmi.Controls.registerEx('AsteriscoParaNegrito', 'TcHmi.Controls.AsteriscoNegrito', TcHmi.Controls.AsteriscoNegrito.AsteriscoParaNegrito);
+TcHmi.Controls.registerEx('AsteriscoViraNegritoControl', 'TcHmi.Controls.AsteriscoViraNegrito', TcHmi.Controls.AsteriscoViraNegrito.AsteriscoViraNegritoControl);
+//# sourceMappingURL=AsteriscoViraNegritoControl.js.map
