@@ -59,6 +59,36 @@
     <Content Include=".eslintrc.json">
       <Visible>false</Visible>
     </Content>
+    <Content Include="AsteriscoParaNegrito\AsteriscoParaNegrito.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AsteriscoParaNegrito\Description.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AsteriscoParaNegrito\Icons\16x16.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AsteriscoParaNegrito\Icons\24x24.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AsteriscoParaNegrito\Icons\32x32.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AsteriscoParaNegrito\Icons\64x64.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AsteriscoParaNegrito\Schema\Types.Schema.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AsteriscoParaNegrito\Style.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AsteriscoParaNegrito\Template.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AsteriscoParaNegrito\Themes\Base\Style.css">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="tsconfig.tpl.json">
       <SubType>Content</SubType>
       <Visible>true</Visible>
@@ -90,6 +120,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="AsteriscoParaNegrito\" />
+    <Folder Include="AsteriscoParaNegrito\Icons\" />
+    <Folder Include="AsteriscoParaNegrito\Schema\" />
+    <Folder Include="AsteriscoParaNegrito\Themes\" />
+    <Folder Include="AsteriscoParaNegrito\Themes\Base\" />
     <Folder Include="Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />

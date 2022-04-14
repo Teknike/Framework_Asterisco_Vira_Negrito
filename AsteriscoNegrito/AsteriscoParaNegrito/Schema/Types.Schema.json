@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "definitions": {
+    "TcHmi.Controls.AsteriscoNegrito.AsteriscoParaNegrito": {
+      "type": "object",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkControlType": "AsteriscoParaNegrito",
+      "frameworkControlNamespace": "TcHmi.Controls.AsteriscoNegrito"
+    }
+  }
+}
