@@ -1,0 +1,17 @@
+﻿{
+  "$schema": ".hmiframework/Schema/Manifest.Schema.json",
+  "apiVersion": 1,
+  "modules": [
+    {
+      "type": "Package",
+      "nugetId": "Beckhoff.TwinCAT.HMI.Framework"
+    }
+  ],
+  "provideMetadata": {
+	"toolbox": {
+		  "AsteriscoNegrito": {
+			  "200": "AsteriscoNegrito"
+		  }
+	  }
+  }
+}

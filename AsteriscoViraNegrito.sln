@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# TcXaeShell Solution File, Format Version 11.00
+VisualStudioVersion = 15.0.28307.1300
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FE7A1B72-C5B7-4D7C-BB7D-76384D4DE8E1}") = "AsteriscoViraNegrito", "AsteriscoViraNegrito\AsteriscoViraNegrito.hmiproj", "{2A3517E0-A7DC-41BF-BD73-FF2A04D6B5AB}"
+EndProject
+Project("{3B740506-4966-4147-AB1F-357FE08946EA}") = "AsteriscoNegrito", "AsteriscoNegrito\AsteriscoNegrito.hmiextproj", "{7748D480-A819-46BE-B4C3-CA1F9D3B3C2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|TwinCAT HMI = Debug|TwinCAT HMI
+		Release|TwinCAT HMI = Release|TwinCAT HMI
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A3517E0-A7DC-41BF-BD73-FF2A04D6B5AB}.Debug|TwinCAT HMI.ActiveCfg = Debug|TwinCAT HMI
+		{2A3517E0-A7DC-41BF-BD73-FF2A04D6B5AB}.Debug|TwinCAT HMI.Build.0 = Debug|TwinCAT HMI
+		{2A3517E0-A7DC-41BF-BD73-FF2A04D6B5AB}.Release|TwinCAT HMI.ActiveCfg = Release|TwinCAT HMI
+		{2A3517E0-A7DC-41BF-BD73-FF2A04D6B5AB}.Release|TwinCAT HMI.Build.0 = Release|TwinCAT HMI
+		{7748D480-A819-46BE-B4C3-CA1F9D3B3C2C}.Debug|TwinCAT HMI.ActiveCfg = Debug|TwinCAT HMI
+		{7748D480-A819-46BE-B4C3-CA1F9D3B3C2C}.Debug|TwinCAT HMI.Build.0 = Debug|TwinCAT HMI
+		{7748D480-A819-46BE-B4C3-CA1F9D3B3C2C}.Release|TwinCAT HMI.ActiveCfg = Release|TwinCAT HMI
+		{7748D480-A819-46BE-B4C3-CA1F9D3B3C2C}.Release|TwinCAT HMI.Build.0 = Release|TwinCAT HMI
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F2A7B7D-AB9F-4A09-A747-BA3B0E7097F8}
+	EndGlobalSection
+EndGlobal
