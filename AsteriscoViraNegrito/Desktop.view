@@ -1,6 +1,6 @@
 ﻿<div id="Desktop" data-tchmi-type="TcHmi.Controls.System.TcHmiView" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width-mode="Content" data-tchmi-min-width="100" data-tchmi-min-width-unit="%" data-tchmi-height-mode="Content" data-tchmi-min-height="100" data-tchmi-min-height-unit="%">
 <div id="TcHmiTextblock" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="25" data-tchmi-left-unit="px" data-tchmi-text="%s%PLC1.GVL_Motores.Motor[1]::En::sInterLock_1%/s%" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="true">
 </div>
-<div id="AsteriscoParaNegrito" data-tchmi-type="TcHmi.Controls.AsteriscoNegrito.AsteriscoParaNegrito" data-tchmi-height="49" data-tchmi-height-unit="px" data-tchmi-left="25" data-tchmi-left-unit="px" data-tchmi-top="76" data-tchmi-top-unit="px" data-tchmi-width="242" data-tchmi-width-unit="px">
+<div id="AsteriscoParaNegrito" data-tchmi-type="TcHmi.Controls.AsteriscoNegrito.AsteriscoParaNegrito" data-tchmi-height="281" data-tchmi-height-unit="px" data-tchmi-left="25" data-tchmi-left-unit="px" data-tchmi-top="76" data-tchmi-top-unit="px" data-tchmi-width="521" data-tchmi-width-unit="px" data-tchmi-texto="%s%PLC1.GVL_Motores.Motor[1]::En::sInterLock_1%/s%">
 </div>
 </div>

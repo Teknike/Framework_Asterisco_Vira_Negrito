@@ -30,6 +30,8 @@ var TcHmi;
                 constructor(element, pcElement, attrs) {
                     /** Call base class constructor */
                     super(element, pcElement, attrs);
+
+                    var sTextointerno = null;
                 }
                 /**
                   * If raised, the control object exists in control cache and constructor of each inheritation level was called.
@@ -38,6 +40,9 @@ var TcHmi;
                 __previnit() {
                     // Fetch template root element
                     this.__elementTemplateRoot = this.__element.find('.TcHmi_Controls_AsteriscoNegrito_AsteriscoParaNegrito-Template');
+                    this.__elementContainer = this.__elementTemplateRoot.find('.tchmi_container_padrao');
+                    this.__elementInput = this.__elementContainer.find('.tchmi_input');
+                    this.__elementButton = this.__elementContainer.find('.tchmi_button');
                     if (this.__elementTemplateRoot.length === 0) {
                         throw new Error('Invalid Template.html');
                     }
@@ -57,9 +62,11 @@ var TcHmi;
                 */
                 __attach() {
                     super.__attach();
-                    /**
-                     * Initialize everything which is only available while the control is part of the active dom.
-                     */
+
+                    var $this = this;
+                    this.__elementInput.on('input', function (e) {
+                        $this.__TextChanged($this);
+                    })
                 }
                 /**
                 * Is called by tachcontrol() after the control instance is no longer part of the current DOM.
@@ -67,10 +74,8 @@ var TcHmi;
                 */
                 __detach() {
                     super.__detach();
-                    /**
-                     * Disable everything which is not needed while the control is not part of the active dom.
-                     * No need to listen to events for example!
-                     */
+                    
+                    this.__elementInput.off('input');
                 }
                 /**
                 * Destroy the current control instance.
@@ -88,6 +93,31 @@ var TcHmi;
                     * Free resources like child controls etc.
                     */
                 }
+
+                __TextChanged($this) {
+                    var s1 = $this.__elementInput.get(0);
+                    this.sTextointerno = s1.value;
+                    //todo
+                    TcHmi.EventProvider.raise(this.__id + ".onFunctionResultChanged", ["getTexto"]);
+                }
+
+                getTexto = function () {
+                    return this.sTextointerno;
+                }
+
+                setTexto(newValue) {
+                    this.sTextointerno = newValue;
+                    var element = this.__elementInput.get(0);
+                    element.value = this.sTextointerno;
+
+                    this.__TextChanged(this);
+                }
+
+
+
+
+
+
             }
             AsteriscoNegrito.AsteriscoParaNegrito = AsteriscoParaNegrito;
         })(AsteriscoNegrito = Controls.AsteriscoNegrito || (Controls.AsteriscoNegrito = {}));
