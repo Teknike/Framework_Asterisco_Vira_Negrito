@@ -86,7 +86,26 @@
             "heritable": true,
             "defaultValue": null,
             "defaultValueInternal": null
+        },
+        {
+            "name": "Data-tchmi-TamanhoFonte",
+            "propertyName": "iTamanhoFonte",
+            "propertyGetterName": "getTamanhoFonte",
+            "propertySetterName": "setTamanhoFonte",
+            "displayName": "Tamanho Fonte",
+            "visible": true,
+            "themeable": "Standard",
+            "displayPriority": 10,
+            "type": "tchmi:general#/definitions/String",
+            "category": "Variaveis",
+            "description": "Variavel trocada com o framework",
+            "readOnly": false,
+            "bindable": true,
+            "heritable": true,
+            "defaultValue": 16,
+            "defaultValueInternal": 16
         }
+
     ],
     "attributeCategories": [],
     "functions": [],

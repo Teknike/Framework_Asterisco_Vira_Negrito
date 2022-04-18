@@ -32,6 +32,7 @@ var TcHmi;
                     super(element, pcElement, attrs);
 
                     var sTextointerno = null;
+                    var iTamanhoFonte = 16;
                 }
                 /**
                   * If raised, the control object exists in control cache and constructor of each inheritation level was called.
@@ -94,9 +95,38 @@ var TcHmi;
                 }
 
                 setTexto(newValue) {
-                    this.sTextointerno = newValue;
+
+                    var negrito = false;
+                    var AjeitoTextoEmNegrito = '';
+
+                    for (var i = 0; i < newValue.length; i++) {
+                        if (newValue.charAt(i) == '*') {
+                            negrito = !negrito;
+                        } else {
+
+                            if (negrito) {
+                                AjeitoTextoEmNegrito = AjeitoTextoEmNegrito + newValue.charAt(i).bold();
+                            } else {
+                                AjeitoTextoEmNegrito = AjeitoTextoEmNegrito + newValue.charAt(i);
+                            }
+                        }
+                    }
+
+                    this.sTextointerno = AjeitoTextoEmNegrito;
+
+
                     var element = this.__elementText.get(0);
                     element.innerHTML = this.sTextointerno;
+                }
+
+                getTamanhoFonte = function () {
+                    return this.iTamanhoFonte;
+                }
+
+                setTamanhoFonte(newValue) {
+                    this.iTamanhoFonte = newValue;
+                    var element = this.__elementContainer.get(0);
+                    element.style.fontSize = this.iTamanhoFonte + 'px';
                 }
 
 
