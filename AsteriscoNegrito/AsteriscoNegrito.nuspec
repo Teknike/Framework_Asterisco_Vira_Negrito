@@ -4,14 +4,14 @@
     <id>AsteriscoNegrito</id>
     <version>1.0.0</version>
     <title>AsteriscoNegrito</title>
-    <authors>ADD AUTHOR</authors>
-    <owners>ADD OWNER</owners>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <authors>Tiago B. Cunico</authors>
+    <owners>Teknike</owners>
+    <projectUrl></projectUrl>
     <license type="file">LICENSE.txt</license>
     <icon>images/logo.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>-.-</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>Master</releaseNotes>
     <copyright>Copyright 2022</copyright>
     <tags>TwinCAT HMI</tags>
     <dependencies>
