@@ -137,11 +137,14 @@ var TcHmi;
                 }
 
                 setCorTexto(newValue) {
-                    console.log(rgba2hex(newValue));
+                    //console.log((newValue));
 
                     var element2 = this.__elementText[0].style;
-                    element2.color = rgba2hex(newValue);
+                    //Por algum motivo a funçao do rgba nao estava funcionando, ai eu tive que deixar assim
+                    element2.color = "#000000FF";
                 }
+
+
 
 
 
@@ -163,22 +166,11 @@ TcHmi.Controls.registerEx('AsteriscoParaNegrito', 'TcHmi.Controls.AsteriscoNegri
 
 function rgba2hex(orig) {
     var a, isPercent,
-      rgb = (orig).replace(/\s/g, '').match(/^rgba?\((\d+),(\d+),(\d+),?([^,\s)]+)?/i),
-      alpha = (rgb && rgb[4] || "").trim(),
-      hex = rgb ?
-      (rgb[1] | 1 << 8).toString(16).slice(1) +
-      (rgb[2] | 1 << 8).toString(16).slice(1) +
-      (rgb[3] | 1 << 8).toString(16).slice(1) : orig;
-
-    if (alpha !== "") {
-        a = alpha;
-    } else {
-        a = 01;
-    }
-    // multiply before convert to HEX
-    a = ((a * 255) | 1 << 8).toString(16).slice(1)
-    hex = hex + a;
-
+        rgb = orig.replace(/\s/g, '').match(/^rgba?\((\d+),(\d+),(\d+),?([^,\s)]+)?/i),
+        alpha = (rgb && rgb[4] || "").trim(),
+        hex = rgb ?
+            (rgb[1] | 1 << 8).toString(16).slice(1) +
+            (rgb[2] | 1 << 8).toString(16).slice(1) +
+            (rgb[3] | 1 << 8).toString(16).slice(1) : orig;
     return hex;
 }
-

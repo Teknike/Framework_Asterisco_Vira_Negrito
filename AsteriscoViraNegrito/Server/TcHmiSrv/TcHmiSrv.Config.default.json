@@ -981,8 +981,7 @@
     "DISCOVERY": 2,
     "ENABLE_SERVER_UPDATE": true,
     "ENDPOINTS": [
-        "http://192.168.1.158:13001",
-        "http://192.168.1.158:3003",
+        "http://127.0.0.1:13001",
         "http://127.0.0.1:3003"
     ],
     "ETAGENABLED": true,

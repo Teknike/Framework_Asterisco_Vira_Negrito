@@ -9,14 +9,14 @@
     <owners>Teknike</owners>
     <projectUrl>http://www.teknike.com.br</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Master</releaseNotes>
+    <releaseNotes>Bug fix da cor, agora ela é forçada pra preto</releaseNotes>
     <copyright>Copyright 2023</copyright>
     <tags>TwinCAT HMI</tags>
     <license type="file">LICENSE.txt</license>
     <icon>images/logo.png</icon>
     <dependencies>
       <group targetFramework="native1.12-tchmi">
-        <dependency id="Beckhoff.TwinCAT.HMI.Framework" version="12.754.4" />
+        <dependency id="Beckhoff.TwinCAT.HMI.Framework" version="12.760.42" />
       </group>
     </dependencies>
   </metadata>
