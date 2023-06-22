@@ -1,4 +1,4 @@
-﻿{
+{
     "$schema": "../.hmiframework/Schema/ControlDescription.Schema.json",
     "apiVersion": 1,
     "name": "AsteriscoParaNegrito",
@@ -104,6 +104,24 @@
             "heritable": true,
             "defaultValue": 16,
             "defaultValueInternal": 16
+        },
+        {
+            "name": "data-tchmi-CorTexto",
+            "propertyName": "CorTexto",
+            "propertyGetterName": "getCorTexto",
+            "propertySetterName": "setCorTexto",
+            "displayName": "Cor do Texto",
+            "visible": true,
+            "themeable": "Standard",
+            "displayPriority": 11,
+            "type": "tchmi:framework#/definitions/Color",
+            "category": "Colors",
+            "description": "Cor das linhas do grafico",
+            "readOnly": false,
+            "bindable": true,
+            "heritable": true,
+            "defaultValue": "rgba(255, 255, 255, 255)",
+            "defaultValueInternal": "rgba(255, 255, 255, 255)"
         }
 
     ],

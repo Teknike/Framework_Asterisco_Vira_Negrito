@@ -2,28 +2,27 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>AsteriscoNegrito</id>
-    <version>1.0.0</version>
-    <title>AsteriscoNegrito</title>
+    <version>1.1.0</version>
+    <description>-.-</description>
     <authors>Tiago B. Cunico</authors>
+    <title>AsteriscoNegrito</title>
     <owners>Teknike</owners>
     <projectUrl>http://www.teknike.com.br</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Master</releaseNotes>
+    <copyright>Copyright 2023</copyright>
+    <tags>TwinCAT HMI</tags>
     <license type="file">LICENSE.txt</license>
     <icon>images/logo.png</icon>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>-.-</description>
-    <releaseNotes>Master.</releaseNotes>
-    <copyright>Copyright 2022</copyright>
-    <tags>TwinCAT HMI</tags>
     <dependencies>
       <group targetFramework="native1.12-tchmi">
+        <dependency id="Beckhoff.TwinCAT.HMI.Framework" version="12.754.4" />
       </group>
     </dependencies>
   </metadata>
   <files>
     <file src="LICENSE.txt" target="" />
-    <file src="**\*"
-          target="runtimes\native1.12-tchmi\"
-          exclude=".eslintrc.json;**\*.nuspec;**\*.tpl.json;**\*.hmi*proj;**\~*;**\*.tmp;**\tmp*;**\*.user;**\tsconfig.json;**\*.log;**\*.bak;**\obj\**\*;**\.hmiframework\*;**\.hmiframework\**\*;**\.hmipkgs\**\*;packages.config;packages.xsd;.hmiframework\**\*;.git;.gitignore;.gitattributes"/>
+    <file src="**\*" target="runtimes\native1.12-tchmi\" exclude=".eslintrc.json;**\*.nuspec;**\*.tpl.json;**\*.hmi*proj;**\~*;**\*.tmp;**\tmp*;**\*.user;**\tsconfig.json;**\*.log;**\*.bak;**\obj\**\*;**\.hmiframework\*;**\.hmiframework\**\*;**\.hmipkgs\**\*;packages.config;packages.xsd;.hmiframework\**\*;.git;.gitignore;.gitattributes" />
     <file src="images\logo.png" target="images\" />
   </files>
 </package>

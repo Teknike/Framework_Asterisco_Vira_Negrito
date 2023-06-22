@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "./../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.754.4/runtimes/native1.12-tchmi/Schema/TchmiConfig.Schema.json",
   "basePath": "./framework",
   "scaleMode": "None",
@@ -25,7 +25,8 @@
           "type": "ThemedValues"
         }
       ],
-      "replacesThemeForControls": []
+      "replacesThemeForControls": [],
+      "replacesThemeForPackageComponents": []
     },
     "Base": {
       "resources": [
@@ -40,7 +41,8 @@
           "type": "Stylesheet"
         }
       ],
-      "replacesThemeForControls": []
+      "replacesThemeForControls": [],
+      "replacesThemeForPackageComponents": []
     }
   },
   "dependencyFiles": [
@@ -66,7 +68,8 @@
   ],
   "userFunctions": [],
   "symbols": {
-    "internal": {}
+    "internal": {},
+    "themedResources": {}
   },
   "trigger": [],
   "actionTemplates": [],
@@ -110,5 +113,23 @@
     {
       "url": "KeyboardLayouts/US - compact.keyboard.json"
     }
-  ]
+  ],
+  "systemKeyboard": {
+    "providerName": "",
+    "projectKeyboardMapping": {
+      "de-DE": {
+        "text": "",
+        "decimal": "",
+        "numeric": ""
+      },
+      "en-US": {
+        "text": "",
+        "decimal": "",
+        "numeric": ""
+      }
+    }
+  },
+  "systemPopups": {
+    "providerName": "Beckhoff.TcHmiPopups"
+  }
 }

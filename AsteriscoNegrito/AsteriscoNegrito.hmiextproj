@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.3.9.9\build\Microsoft.TypeScript.MSBuild.props" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.3.9.9\build\Microsoft.TypeScript.MSBuild.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <PropertyGroup>
-    <TcHmiDirectory>$(registry:HKEY_LOCAL_MACHINE\Software\Beckhoff\TwinCAT3\3.1@InstallDir)\..\Functions\TE2000-HMI-Engineering</TcHmiDirectory>
-    <TcHmiDirectory Condition="'$(TcHmiDirectory)'==''">$(registry:HKEY_LOCAL_MACHINE\Software\Wow6432Node\Beckhoff\TwinCAT3\3.1@InstallDir)\..\Functions\TE2000-HMI-Engineering</TcHmiDirectory>
-    <TcHmiDirectory Condition="!Exists('$(TcHmiDirectory)')">C:\TwinCAT\Functions\TE2000-HMI-Engineering</TcHmiDirectory>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">TwinCAT HMI</Platform>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
@@ -14,12 +11,14 @@
     <TcHmiCreatorVersion>[1.12,]</TcHmiCreatorVersion>
     <TargetFrameworkMoniker>native,Version=v1.12.0,Profile=tchmi</TargetFrameworkMoniker>
     <TargetFramework>native1.12-tchmi</TargetFramework>
-    <EnableTypeScript>true</EnableTypeScript>
     <ProjectTypeGuids>{3B740506-4966-4147-AB1F-357FE08946EA}</ProjectTypeGuids>
     <ProjectGuid>7748d480-a819-46be-b4c3-ca1f9d3b3c2c</ProjectGuid>
     <ProjectName>AsteriscoNegrito</ProjectName>
     <Name>AsteriscoNegrito</Name>
-    <HmiRecent>1.12.754.4</HmiRecent>
+    <HmiRecent>1.12.760.42</HmiRecent>
+    <TcHmiDirectory>$(registry:HKEY_CURRENT_USER\Software\Beckhoff\TwinCAT3\3.1@InstallDir)\..\Functions\TE2000-HMI-Engineering</TcHmiDirectory>
+    <TcHmiDirectory Condition="'$(TcHmiDirectory)'==''">$(registry:HKEY_LOCAL_MACHINE\Software\Beckhoff\TwinCAT3\3.1@InstallDir)\..\Functions\TE2000-HMI-Engineering</TcHmiDirectory>
+    <TcHmiDirectory Condition="'$(TcHmiDirectory)'==''">$(registry:HKEY_LOCAL_MACHINE\Software\Wow6432Node\Beckhoff\TwinCAT3\3.1@InstallDir)\..\Functions\TE2000-HMI-Engineering</TcHmiDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|TwinCAT HMI' ">
     <PlatformTarget>TwinCAT HMI</PlatformTarget>
@@ -30,8 +29,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <TypeScriptToolsVersion>3.9</TypeScriptToolsVersion>
-    <TypeScriptShowVersionWarning>false</TypeScriptShowVersionWarning>
     <DefaultNamespace>AsteriscoNegrito</DefaultNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|TwinCAT HMI' ">
@@ -41,8 +38,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <TypeScriptToolsVersion>3.9</TypeScriptToolsVersion>
-    <TypeScriptShowVersionWarning>false</TypeScriptShowVersionWarning>
     <DefaultNamespace>AsteriscoNegrito</DefaultNamespace>
   </PropertyGroup>
   <PropertyGroup Label="TwinCatHMI">
@@ -127,11 +122,7 @@
     <Folder Include="AsteriscoParaNegrito\Themes\Base\" />
     <Folder Include="Images\" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
-  <Import Project="$(TypeScriptSdkDir)\$(TypeScriptToolsVersion)\build\Microsoft.TypeScript.targets" Condition="Exists('$(TypeScriptSdkDir)\$(TypeScriptToolsVersion)\build\Microsoft.TypeScript.targets')" />
-  <PropertyGroup>
-    <TSJavaScriptFile>$(TypeScriptSdkDir)\$(TypeScriptToolsVersion)\tsc.js</TSJavaScriptFile>
-  </PropertyGroup>
+  <PropertyGroup />
   <PropertyGroup>
     <PreBuildEventDependsOn>
     </PreBuildEventDependsOn>
@@ -145,28 +136,23 @@
     <Exec WorkingDirectory="$(OutDir)" Command="$(PostBuildEvent)" />
   </Target>
   <PropertyGroup>
-    <BuildDependsOn>
+    <BuiltProjectOutputGroupDependsOn>
       PreBuildEvent;
       CoreBuild;
       PostBuildEvent
-    </BuildDependsOn>
+    </BuiltProjectOutputGroupDependsOn>
+    <CleanDependsOn>
+		BaseClean
+	</CleanDependsOn>
   </PropertyGroup>
   <Target Name="CoreBuild">
     <Message Text="Microsoft.TypeScript.targets: $(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Importance="high" />
     <Message Text="TypeScriptSdkDir: $(TypeScriptSdkDir)" Importance="high" />
     <Message Text="TypeScriptToolsVersion: $(TypeScriptToolsVersion)" Importance="high" />
     <Message Text="LastKnownTypeScriptVersion: $(LastKnownTypeScriptVersion)" Importance="high" />
-    <CallTarget Targets="FindConfigFiles" />
-    <CallTarget Targets="CompileTypeScript" />
-    <CallTarget Targets="PreComputeCompileTypeScript" />
-    <CallTarget Targets="PreComputeCompileTypeScriptWithTSConfig" />
-    <CallTarget Targets="CompileTypeScriptWithTSConfig" />
-    <CallTarget Targets="GetTypeScriptOutputForPublishing" />
   </Target>
-  <Target Name="Build" DependsOnTargets="$(BuildDependsOn)" />
-  <Target Name="Clean">
-    <CallTarget Targets="TypeScriptDeleteCompilerOutput" />
-    <CallTarget Targets="TypeScriptBuildModeClean" />
-  </Target>
+  <Target Name="Build" DependsOnTargets="$(BuiltProjectOutputGroupDependsOn)" />
+  <Target Name="Clean" DependsOnTargets="$(CleanDependsOn)" />
   <Target Name="ReBuild" DependsOnTargets="Clean; Build" />
+  <Import Project="..\packages\Microsoft.TypeScript.MSBuild.3.9.9\build\Microsoft.TypeScript.MSBuild.targets" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.3.9.9\build\Microsoft.TypeScript.MSBuild.targets')" />
 </Project>

@@ -1,4 +1,4 @@
-﻿// Keep these lines for a best effort IntelliSense of Visual Studio 2017 and higher.
+// Keep these lines for a best effort IntelliSense of Visual Studio 2017 and higher.
 /// <reference path="./../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.754.4/runtimes/native1.12-tchmi/TcHmi.d.ts" />
 
 /*
@@ -33,6 +33,7 @@ var TcHmi;
 
                     var sTextointerno = null;
                     var iTamanhoFonte = 16;
+                    var CorTexto = null;
                 }
                 /**
                   * If raised, the control object exists in control cache and constructor of each inheritation level was called.
@@ -117,6 +118,7 @@ var TcHmi;
 
                     var element = this.__elementText.get(0);
                     element.innerHTML = this.sTextointerno;
+
                 }
 
                 getTamanhoFonte = function () {
@@ -127,6 +129,18 @@ var TcHmi;
                     this.iTamanhoFonte = newValue;
                     var element = this.__elementContainer.get(0);
                     element.style.fontSize = this.iTamanhoFonte + 'px';
+                }
+
+
+                getCorTexto = function () {
+                    return this.CorTexto;
+                }
+
+                setCorTexto(newValue) {
+                    console.log(rgba2hex(newValue));
+
+                    var element2 = this.__elementText[0].style;
+                    element2.color = rgba2hex(newValue);
                 }
 
 
@@ -143,3 +157,28 @@ var TcHmi;
 * Register Control
 */
 TcHmi.Controls.registerEx('AsteriscoParaNegrito', 'TcHmi.Controls.AsteriscoNegrito', TcHmi.Controls.AsteriscoNegrito.AsteriscoParaNegrito);
+
+
+
+
+function rgba2hex(orig) {
+    var a, isPercent,
+      rgb = (orig).replace(/\s/g, '').match(/^rgba?\((\d+),(\d+),(\d+),?([^,\s)]+)?/i),
+      alpha = (rgb && rgb[4] || "").trim(),
+      hex = rgb ?
+      (rgb[1] | 1 << 8).toString(16).slice(1) +
+      (rgb[2] | 1 << 8).toString(16).slice(1) +
+      (rgb[3] | 1 << 8).toString(16).slice(1) : orig;
+
+    if (alpha !== "") {
+        a = alpha;
+    } else {
+        a = 01;
+    }
+    // multiply before convert to HEX
+    a = ((a * 255) | 1 << 8).toString(16).slice(1)
+    hex = hex + a;
+
+    return hex;
+}
+
