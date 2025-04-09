@@ -1,12 +1,13 @@
 {
-    "AUTHCLIENTCERTIFICATE": false,
+    "ALLOW_REMOTE_ADMIN": true,
     "AUTO_LOGINUSER": "",
     "AUTO_LOGOFF": "P30D",
+    "BASE_HMI_URL": "",
     "CACHEENABLED": true,
     "CACHEMAXAGE": "P30D",
     "CACHEMAXENTRYSIZE": 1048576,
     "CACHEMAXSIZE": 2097152,
-    "CERTIFICATE": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURrVENDQW5tZ0F3SUJBZ0lKQVBJSkN3cFU5QUpOTUEwR0NTcUdTSWIzRFFFQkN3VUFNRVF4Q3pBSkJnTlYKQkFZVEFrUkZNUnN3R1FZRFZRUUtEQkpVZDJsdVEwRlVJRWhOU1NCVFpYSjJaWEl4R0RBV0JnTlZCQU1NRDA1dgpkR1V0VkdsaFoyOWZjbTl2ZERBZ0Z3MHlNakEwTVRNeE9ESTFNVGRhR0E4eU1EWXdNRGd4TVRFNE1qVXhOMW93ClB6RUxNQWtHQTFVRUJoTUNSRVV4R3pBWkJnTlZCQW9NRWxSM2FXNURRVlFnU0UxSklGTmxjblpsY2pFVE1CRUcKQTFVRUF3d0tUbTkwWlMxVWFXRm5iekNDQVNJd0RRWUpLb1pJaHZjTkFRRUJCUUFEZ2dFUEFEQ0NBUW9DZ2dFQgpBTWVhOWdqL3RQaFV0c3h2c0kxaENidE5HbE1nSEllUkd2cTJoU1c5d0J3WHN0RDN0eU9YZExYZC9BQVltQ29YCkNuNEpDQ1ZQWTZldTh1ano4TDE1NURjemFsNTNMZFNMWjRreGlxUmZrNXhYVkorWTlVUUtya09QT0M3Z2IvUE4KQ2FqeUg5dzIwU2FIMCs5eDdoWTBhM2U4eXBRWVJHblA4by9tTUcrek85OUtWbEkrNUcxYkFsMlU1UmhNSjZDcQp3TEZ2alhHTWFtbitwY0swSllLQTk2UmQ0aXZ4UHQyblNlZm9IRURMdjBHU3duNmtlRCs2NnFXRVJsenZlOEtQCm5rcjVHaWhlOWlVbTNjb0ZXN2gvdURPdUtqTVJtWHVZU2dHcytBakM2TVVDWXo0UGt0T2NSUnVNVXpHbHlLdDYKNWg1am1zRGhtanBnNTZPRTgxakthRFVDQXdFQUFhT0JpRENCaFRCV0JnTlZIUkVFVHpCTmdnbHNiMk5oYkdodgpjM1NIQkg4QUFBR0hFQUFBQUFBQUFBQUFBQUFBQUFBQUFBR0NDazV2ZEdVdFZHbGhaMitDQ2s1dmRHVXRWR2xoCloyK0hCTUNvQVdlSEJLbitjTXFIQk1Db1pNQXdIUVlEVlIwT0JCWUVGTFBXN1ExcVlVbi8zcEVEYS9iS1BLeWUKUjVhaE1Bd0dBMVVkRXdFQi93UUNNQUF3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUt3UWxncTlSR25NcXltKwpOMksrU3JPUk1zT2Nwb1hJWCszUWtQM0dTL0U2V0lDSGo5WWRwbWRVMFBsd3BuTmg3M2l0bnBQYS9ISGFKWm54CkI2aCtoZ3FSMEZ2am9SL1RvNllOVm1RblNWbEFLNmFLS3ZmUWlTUmlTTVJxNE5PSmovTzRwWTg4UGdoWDRzYzMKL1QxeDh1WmUvVFdvdzhCeXlsL0tsZmlqWlMybWFwTFo0ZHh3T2t4Vkdud3M4Nm1RS2RlUm9CRmVVNCtKZ3g3ZAo3T3VJclpsbXpGT0dWZ1kvN3RXKzBXWU9oL1g2aElORFRNNkNSVGNiU0pBQ1Bxdlhyb0txZVY0eVZIVFNKQytWCjNFQXVDbHZDSUsvbzRJSEFYMFAyNlRweE5meGVlalpMVzRGWUJ6aFdoYmJFS0VBcERLWnZucEd5cEgyNEk1Z3UKWCtGTG1NVT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQotLS0tLUJFR0lOIENFUlRJRklDQVRFLS0tLS0KTUlJRG1UQ0NBb0dnQXdJQkFnSUpBTnVaKzd5VE1xbE5NQTBHQ1NxR1NJYjNEUUVCQ3dVQU1FUXhDekFKQmdOVgpCQVlUQWtSRk1Sc3dHUVlEVlFRS0RCSlVkMmx1UTBGVUlFaE5TU0JUWlhKMlpYSXhHREFXQmdOVkJBTU1EMDV2CmRHVXRWR2xoWjI5ZmNtOXZkREFnRncweU1qQTBNVE14T0RJMU1UZGFHQTh5TURZd01EZ3hNVEU0TWpVeE4xb3cKUkRFTE1Ba0dBMVVFQmhNQ1JFVXhHekFaQmdOVkJBb01FbFIzYVc1RFFWUWdTRTFKSUZObGNuWmxjakVZTUJZRwpBMVVFQXd3UFRtOTBaUzFVYVdGbmIxOXliMjkwTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCCkNnS0NBUUVBMENGdm0ydDhFKzhuL2U0MFRFMUJHK1BPVVFtcldSMW5JNmJHR0JRK3pwWi9jV3d5WWpta3dwbHMKUDIyaTB4U2JCWHFyYzJmZkhDaHMxc2Z3OVFPeUhIazZpek5TL3F1UmtBU0FhT2JHRkNGeFRrVEdKczBlYXo1NAo4d3YxZE1vS2MwNEZyeEFtRW9vcHVPZ3gra3czN3pLWUNCS0FBZFQxdGFTTnpVdHpnTDNiVkQ5U1lUTTdBcHgvClJTZG95YzAxVEJpM0ZNOFJhYXVRZ1F6T0ZmS2RYUDdBdllPOE9PV256YnByZWQ2dUsvVG13YkVEYXpYWWUwencKK01MZ2pJaDQzNERmYXNSWVh6TU1uYURsUXlTc2ZJSHZiSjM2c2JkU252TXhITGdPUnVNZnhuSkplcWswc3Q5NQp0U0g3L2hyREp6cnppeVJlcUVPSzkvWnJoeHRpaFFJREFRQUJvNEdMTUlHSU1GWUdBMVVkRVFSUE1FMkNDV3h2ClkyRnNhRzl6ZEljRWZ3QUFBWWNRQUFBQUFBQUFBQUFBQUFBQUFBQUFBWUlLVG05MFpTMVVhV0ZuYjRJS1RtOTAKWlMxVWFXRm5iNGNFd0tnQlo0Y0VxZjV3eW9jRXdLaGt3REFkQmdOVkhRNEVGZ1FVdmhEa1p3R1dYVW55L01jNApES0MxRUVJUmtLZ3dEd1lEVlIwVEFRSC9CQVV3QXdFQi96QU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FRRUFzZUFJCnRTSHlBNDZoVE1ML3lkVmQ2a3Y3UWJhWHpGQWJkWG0reVJjUkdiVFlpWCtGeXJENHd4TmJNTUx2WkxVUC80RzkKTERHNmtzMFN6cFhsSlAwT3RQNG9scmk3ZkgyMU9VV1BuL1ZJUW8rU3RWVitBeE5QRFpBTzJnQ01mNU90dTNDQQpSa0l5QVNjZTlqb3FheVNYZDlYSVhyYnNHV1o2TTlaUXhNY2E4S08xV0x6UEwzaDNzbGRkeVROSGdYY2krNXRLCnNZOUJEYXp6bm9ldHoxREJOL04rN0dTN0IyWEcyY0xRWXFVK256RVRDUHczdGxBYkMyTlNuUDBid1FjR00yYmQKY0pzcnhuSGd5YWlsTVUvWDMwZEFoR3Z6dlVOR2NoVE9aVmFXd3pkVkVmVWVhTTE4R2IrMXNvd1Z5UUN3RWdtUgp0U3oyQ2V3MVdPNGowRmRLcEE9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==",
+    "CERTIFICATE": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVLakNDQXhLZ0F3SUJBZ0lKQUtmczdQMklCS1hvTUEwR0NTcUdTSWIzRFFFQkN3VUFNRVV4Q3pBSkJnTlYKQkFZVEFrUkZNUnN3R1FZRFZRUUtEQkpVZDJsdVEwRlVJRWhOU1NCVFpYSjJaWEl4R1RBWEJnTlZCQU1NRUZSbAphMDV2ZEdVdE1EQTBYM0p2YjNRd0lCY05NalV3TkRBNU1UY3pNRFV3V2hnUE1qQTJNekE0TURneE56TXdOVEJhCk1FQXhDekFKQmdOVkJBWVRBa1JGTVJzd0dRWURWUVFLREJKVWQybHVRMEZVSUVoTlNTQlRaWEoyWlhJeEZEQVMKQmdOVkJBTU1DMVJsYTA1dmRHVXRNREEwTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQwpBUUVBNGd6cnJMNzFDKzdYTk5jUUJkNk0wUFlBN1RuNWYycXUybml1d0h4N01ST0x6NzJ3QmJlTmhiTEtNSE9QCjBveHQvcXRuc1hxTFNWcXNiWTF1M3RLNnhldm5qcElkZzJSa2pZOWdTNk9pNUczQVF2L09rY3lsM3pES2dDc0MKV0xTbDRLV3FKWkx3bHhPV2owWnN4OVQyMFNYOWgxSG16eXhRUTR4T0pNbFhoR2ZOMmgwc21GUmRRcFhrdi9iMQorc2c5L1NQcFc5MlozTlZtYXJoaHFzOXVPNTlpdjdaRklwb2t4QmtYelJyNWJhS2czcFVhRE5yTHYvL09Zc1RuCkxxajBwV2FMQ3Z0TWJueXdMNmloR21iMjJpRnR2Z3lWRUtRL0dlbkQyemtSVmFSbnloaVMxUDZlb3lFeHpLVk0KN3JoOG1aV3MwRU1DVmdXdHRDV21wSDZzR1FJREFRQUJvNElCSGpDQ0FSb3dnZW9HQTFVZEVRU0I0akNCMzRJSgpiRzlqWVd4b2IzTjBod1IvQUFBQmh4QUFBQUFBQUFBQUFBQUFBQUFBQUFBQmdndFVaV3RPYjNSbExUQXdOSUlMClZHVnJUbTkwWlMwd01EU0hCR1J2YjJlSEJNQ29BVytIQk1Db0FYK0hFQ2dFRVB3RGR6a0FCdzZSem9zOGFseUgKRUNnRUVQd0RkemtBbXlnZk5lWVlPNW1IRUNnRUVQd0RkemtBcGJsZ2QzeGRTNEdIRUNnRUVQd0RkemtBNE9XVwpVelY1QXdhSEVQMTZFVnloNEFBQUFBQUFBSHJ2YjJlSEVQNkFBQUFBQUFBQVQ4a1hkYm82ZnQrSEVQNkFBQUFBCkFBQUExVCswRk9GZEFoK0hFUDZBQUFBQUFBQUEyUDlRWVBJd2tXZ3dIUVlEVlIwT0JCWUVGT0lqU0h5N3F3dnQKeFp6SkF1blpEZVBmRTJXZU1Bd0dBMVVkRXdFQi93UUNNQUF3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUZTWgo2T3ZrWkdKUm1FZUZJNnNPRDdqOTV1RWVwZ0RqRVFzaS9ud3hGMjNZalhYcDlsTjZObk90WUVpRHE5M2hxQ3pOCnlnM1prYU9sTlIrWVdoQ3MwTmtEVjVhMkdlajlxcGU5V2I2cmdYT1FXbm1rVGVsaUlkbzlDMFlnRDlKU3BFZjEKUWp3U0dXTURFeFJqTjlIYUF1T1ZLOXZHWUF6UkFOT1YwczBOM29BT0xCNXc1aFU0S29keFR4aWRWalZCc20zZApDUVdQQmNqOFBuL2NBSURscTBNOUUzSVUzbCs0bEhNOU5FMFJlczlnb29YMVh2MWR0TmxqVDRMZlRyTUFTTCtKCldvYytSa2lQTGJTSFJNbE1uS3ByaGIwN2J2T09qaUI2U2VhbytIZkZ6bjdQN2hjc1JHSE9vbFdXVCsyWHprQ0wKVm1BOTZWOTdCSHJUMjhXbEY4dz0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQotLS0tLUJFR0lOIENFUlRJRklDQVRFLS0tLS0KTUlJRU1qQ0NBeHFnQXdJQkFnSUpBTHVNRXFmZC8vR0hNQTBHQ1NxR1NJYjNEUUVCQ3dVQU1FVXhDekFKQmdOVgpCQVlUQWtSRk1Sc3dHUVlEVlFRS0RCSlVkMmx1UTBGVUlFaE5TU0JUWlhKMlpYSXhHVEFYQmdOVkJBTU1FRlJsCmEwNXZkR1V0TURBMFgzSnZiM1F3SUJjTk1qVXdOREE1TVRjek1EVXdXaGdQTWpBMk16QTRNRGd4TnpNd05UQmEKTUVVeEN6QUpCZ05WQkFZVEFrUkZNUnN3R1FZRFZRUUtEQkpVZDJsdVEwRlVJRWhOU1NCVFpYSjJaWEl4R1RBWApCZ05WQkFNTUVGUmxhMDV2ZEdVdE1EQTBYM0p2YjNRd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3CmdnRUtBb0lCQVFEUmt5ZEY0NGc0Wm5jRm5pZy91cW11ZnZzQ29nb0pISlFCUmZHOVhMK1JLYlc5OElBRkdBbXkKSHBnWk9CUWcvYXMrRDFUVEZYSWlQRkE1d3pKeDVmVFVGY0RzeEVtVWQvODMwallrWGdCQVZOeGoxd011bUZySQplOVZwTFVpSHYzL2pZNU1rR00yOUZwZGZlYmJGelpKTTRqTm9BcnlrMDJ5V2J3cEswR2YvRHFDUC9iRzhzYi9SCngySWt0bmEzamxnbHd1VHQwNzI4UTlzVFg2VXNmNXE5Mmh0b1JmVmVuSUNPelZZb0NrUmp2OTRRZkxPc0xCS3kKRWVSeE5aME1BQWg5NlBNV2wrWU1JN0kyaDlXWnlmcWVXeW9nL2NENFNiTFpyWVUxdXV4RDZ3SW1jSCtFV3J6dQpzd2x3cGtkY2kwRXJNelU0NXQ3dVJEcDh2UWxsMnNPZkFnTUJBQUdqZ2dFaE1JSUJIVENCNmdZRFZSMFJCSUhpCk1JSGZnZ2xzYjJOaGJHaHZjM1NIQkg4QUFBR0hFQUFBQUFBQUFBQUFBQUFBQUFBQUFBR0NDMVJsYTA1dmRHVXQKTURBMGdndFVaV3RPYjNSbExUQXdOSWNFWkc5dlo0Y0V3S2dCYjRjRXdLZ0JmNGNRS0FRUS9BTjNPUUFIRHBITwppenhxWEljUUtBUVEvQU4zT1FDYktCODE1aGc3bVljUUtBUVEvQU4zT1FDbHVXQjNmRjFMZ1ljUUtBUVEvQU4zCk9RRGc1WlpUTlhrREJvY1EvWG9SWEtIZ0FBQUFBQUFBZXU5dlo0Y1Evb0FBQUFBQUFBQlB5UmQxdWpwKzM0Y1EKL29BQUFBQUFBQURWUDdRVTRWMENINGNRL29BQUFBQUFBQURZLzFCZzhqQ1JhREFkQmdOVkhRNEVGZ1FVWktxZAp3dmppSnNpNXhsRjQzekFoaS9Gb3RhRXdEd1lEVlIwVEFRSC9CQVV3QXdFQi96QU5CZ2txaGtpRzl3MEJBUXNGCkFBT0NBUUVBZ0t6SEo2NFppMzN4Q3N3RksyeFl6SmFBcC9rdE1oVmNucUY4TVA4YlpHTjdCTVkrZTFuL3Rja3IKRlljRWFJd3BhNzcyR2dCNVdabWxORFlnU2JMbjJXYjVuYWdwZk5scWs5ZThCRnJld2l1NElDMVBkUWRWaDVLeQoyYlh5YmN1YjNXblJ5cHp0VEZkSkRMQW16YllBVUkvUVNmOGtxTDJSRDZIdElOQzJkSGtHRmxKNXhHUE1pV3RWCkJUMFQ3T1dUbXpaSEJzalBsWlc0NHJ6R0VZanFYR2E1UExaL3ZCbGRQZXdqVURzaVM4NVdzcmFwVnZiOHkxb0QKL294VEt2RitiOFhLaC85VHMyWlQ2L0NiSm5GK09ldTF0OXdYQk9aTUxUeS9LL25nNG5JdXVxbFBVTDdzelVGawpGRS9tSUZ0Q3IvbCtqeU5TWE85cG43T2oxMXFtb1E9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==",
     "CERTIFICATEEXPIRATION": "P14000D",
     "CHECKSUMENABLED": true,
     "CHUNKSIZE": 1048576,
@@ -26,968 +27,974 @@
     "DEFAULTLOCALE": "client",
     "DEFAULTTIMEFORMATLOCALE": "client",
     "DEFAULTTIMEZONE": "client",
-    "DEFAULTUSERGROUP": "__SystemUsers",
     "DEFINITIONS": {
-        "PLC1.ARRAY_0..23_OF-Teknike_Partidas.KPI_Partida": {
-            "items": {
-                "$ref": "#/definitions/PLC1.Teknike_Partidas.KPI_Partida"
+        "TcHmiSrv": {
+            "PLC1.ARRAY_0..23_OF-Teknike_Partidas.KPI_Partida": {
+                "items": {
+                    "$ref": "#/definitions/PLC1.Teknike_Partidas.KPI_Partida"
+                },
+                "maxItems": 24,
+                "minItems": 24,
+                "type": "array"
             },
-            "maxItems": 24,
-            "minItems": 24,
-            "type": "array"
-        },
-        "PLC1.ARRAY_0..250_OF-Teknike_Partidas.st_Partida": {
-            "items": {
-                "$ref": "#/definitions/PLC1.Teknike_Partidas.st_Partida"
+            "PLC1.ARRAY_0..250_OF-Teknike_Partidas.st_Partida": {
+                "items": {
+                    "$ref": "#/definitions/PLC1.Teknike_Partidas.st_Partida"
+                },
+                "maxItems": 251,
+                "minItems": 251,
+                "type": "array"
             },
-            "maxItems": 251,
-            "minItems": 251,
-            "type": "array"
-        },
-        "PLC1.Tc2_Utilities.TIMESTRUCT": {
-            "properties": {
-                "wDay": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/WORD"
-                        },
-                        {
-                            "comment": "Day of the month: 1..31"
-                        }
-                    ]
+            "PLC1.Tc2_Utilities.TIMESTRUCT": {
+                "properties": {
+                    "wDay": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/WORD"
+                            },
+                            {
+                                "comment": "Day of the month: 1..31"
+                            }
+                        ]
+                    },
+                    "wDayOfWeek": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/WORD"
+                            },
+                            {
+                                "comment": "Day of the week: 0..6 (Sunday = 0, Monday = 1, .. , Saturday = 6 and so on)"
+                            }
+                        ]
+                    },
+                    "wHour": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/WORD"
+                            },
+                            {
+                                "comment": "Hour: 0..23"
+                            }
+                        ]
+                    },
+                    "wMilliseconds": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/WORD"
+                            },
+                            {
+                                "comment": "Milliseconds: 0..999"
+                            }
+                        ]
+                    },
+                    "wMinute": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/WORD"
+                            },
+                            {
+                                "comment": "Minute: 0..59"
+                            }
+                        ]
+                    },
+                    "wMonth": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/WORD"
+                            },
+                            {
+                                "comment": "Month: 1..12 (January = 1, February = 2 and so on)"
+                            }
+                        ]
+                    },
+                    "wSecond": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/WORD"
+                            },
+                            {
+                                "comment": "Second: 0..59"
+                            }
+                        ]
+                    },
+                    "wYear": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/WORD"
+                            },
+                            {
+                                "comment": "Year: 1970..2106"
+                            }
+                        ]
+                    }
                 },
-                "wDayOfWeek": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/WORD"
-                        },
-                        {
-                            "comment": "Day of the week: 0..6 (Sunday = 0, Monday = 1, .. , Saturday = 6 and so on)"
-                        }
-                    ]
-                },
-                "wHour": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/WORD"
-                        },
-                        {
-                            "comment": "Hour: 0..23"
-                        }
-                    ]
-                },
-                "wMilliseconds": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/WORD"
-                        },
-                        {
-                            "comment": "Milliseconds: 0..999"
-                        }
-                    ]
-                },
-                "wMinute": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/WORD"
-                        },
-                        {
-                            "comment": "Minute: 0..59"
-                        }
-                    ]
-                },
-                "wMonth": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/WORD"
-                        },
-                        {
-                            "comment": "Month: 1..12 (January = 1, February = 2 and so on)"
-                        }
-                    ]
-                },
-                "wSecond": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/WORD"
-                        },
-                        {
-                            "comment": "Second: 0..59"
-                        }
-                    ]
-                },
-                "wYear": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/WORD"
-                        },
-                        {
-                            "comment": "Year: 1970..2106"
-                        }
-                    ]
-                }
+                "type": "object"
             },
-            "type": "object"
-        },
-        "PLC1.Tc2_Utilities.T_ULARGE_INTEGER": {
-            "properties": {
-                "dwHighPart": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/DWORD"
-                        },
-                        {
-                            "comment": "Higher double word"
-                        }
-                    ]
+            "PLC1.Tc2_Utilities.T_ULARGE_INTEGER": {
+                "properties": {
+                    "dwHighPart": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/DWORD"
+                            },
+                            {
+                                "comment": "Higher double word"
+                            }
+                        ]
+                    },
+                    "dwLowPart": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/DWORD"
+                            },
+                            {
+                                "comment": "Lower double word"
+                            }
+                        ]
+                    }
                 },
-                "dwLowPart": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/DWORD"
-                        },
-                        {
-                            "comment": "Lower double word"
-                        }
-                    ]
-                }
+                "type": "object"
             },
-            "type": "object"
-        },
-        "PLC1.Teknike_Partidas.Config_Partida": {
-            "properties": {
-                "iSetPoinManu": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/INT"
-                        },
-                        {
-                            "comment": "velocidadde que sera mandada para o bloco de comunicação"
-                        }
-                    ]
+            "PLC1.Teknike_Partidas.Config_Partida": {
+                "properties": {
+                    "iSetPoinManu": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/INT"
+                            },
+                            {
+                                "comment": "velocidadde que sera mandada para o bloco de comunicação"
+                            }
+                        ]
+                    },
+                    "rCorrente_Comissionada": {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    "rSetPoinAuto": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/REAL"
+                            },
+                            {
+                                "comment": "velocidadde que sera mandada para o bloco de comunicação"
+                            }
+                        ]
+                    },
+                    "rTempoFeedBackContator": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/REAL"
+                            },
+                            {
+                                "comment": "Tempo entre acionar a Saída e receber o FeedBack da Contatora"
+                            }
+                        ]
+                    },
+                    "rTempoProxMotor": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/REAL"
+                            },
+                            {
+                                "comment": "Prox motor"
+                            }
+                        ]
+                    },
+                    "rTempoTrocaSentidoDeMarcha": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/REAL"
+                            },
+                            {
+                                "comment": "esse tempo é pra evitar destruir a parte mecanica com a troca de sentido"
+                            }
+                        ]
+                    },
+                    "rVeloEmMetroPMin_Conversao": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/REAL"
+                            },
+                            {
+                                "comment": "valor em m/Min em 1000 RPM"
+                            }
+                        ]
+                    },
+                    "rVeloEmPorcentagem_VeloMax": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/REAL"
+                            },
+                            {
+                                "comment": "velo que representa 100%"
+                            }
+                        ]
+                    },
+                    "sNome_Funcao": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                            },
+                            {
+                                "comment": "nome do motor e função para IHM"
+                            }
+                        ]
+                    },
+                    "xByPassContator": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Sinal de by pass do contato da contatora"
+                            }
+                        ]
+                    },
+                    "xByPassDisjuntor": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Sinal de by pass do contato do disjuntor"
+                            }
+                        ]
+                    },
+                    "xBypassFreio": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "bypass para o freio da partida"
+                            }
+                        ]
+                    },
+                    "xBypassRede": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "para caso tenha problema na rede ele poder operar sem ela"
+                            }
+                        ]
+                    },
+                    "xComissionado_Corrente": {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    "xComissionado_Sentido": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Comissionamento"
+                            }
+                        ]
+                    },
+                    "xComissionado_Velo": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Conversao de velo em automatico"
+                            }
+                        ]
+                    },
+                    "xInverteSentido": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "bit pra inverrter o sentido do inversor"
+                            }
+                        ]
+                    },
+                    "xTemFreio": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "variavel que diz que tem freio"
+                            }
+                        ]
+                    },
+                    "xTemReversao": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Tempo para reversao sem tirar o comando de marcha"
+                            }
+                        ]
+                    },
+                    "xTudoComissionado": {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    "xVeloEmMetroPMin": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "usa a conversao para calcular a velocidade usada"
+                            }
+                        ]
+                    },
+                    "xVeloEmPorcentagem": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "usa o valor de 0-100% para controle da velo"
+                            }
+                        ]
+                    }
                 },
-                "rCorrente_Comissionada": {
-                    "$ref": "tchmi:general#/definitions/REAL"
-                },
-                "rSetPoinAuto": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/REAL"
-                        },
-                        {
-                            "comment": "velocidadde que sera mandada para o bloco de comunicação"
-                        }
-                    ]
-                },
-                "rTempoFeedBackContator": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/REAL"
-                        },
-                        {
-                            "comment": "Tempo entre acionar a Saída e receber o FeedBack da Contatora"
-                        }
-                    ]
-                },
-                "rTempoProxMotor": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/REAL"
-                        },
-                        {
-                            "comment": "Prox motor"
-                        }
-                    ]
-                },
-                "rTempoTrocaSentidoDeMarcha": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/REAL"
-                        },
-                        {
-                            "comment": "esse tempo é pra evitar destruir a parte mecanica com a troca de sentido"
-                        }
-                    ]
-                },
-                "rVeloEmMetroPMin_Conversao": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/REAL"
-                        },
-                        {
-                            "comment": "valor em m/Min em 1000 RPM"
-                        }
-                    ]
-                },
-                "rVeloEmPorcentagem_VeloMax": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/REAL"
-                        },
-                        {
-                            "comment": "velo que representa 100%"
-                        }
-                    ]
-                },
-                "sNome_Funcao": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                        },
-                        {
-                            "comment": "nome do motor e função para IHM"
-                        }
-                    ]
-                },
-                "xByPassContator": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Sinal de by pass do contato da contatora"
-                        }
-                    ]
-                },
-                "xByPassDisjuntor": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Sinal de by pass do contato do disjuntor"
-                        }
-                    ]
-                },
-                "xBypassFreio": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "bypass para o freio da partida"
-                        }
-                    ]
-                },
-                "xBypassRede": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "para caso tenha problema na rede ele poder operar sem ela"
-                        }
-                    ]
-                },
-                "xComissionado_Corrente": {
-                    "$ref": "tchmi:general#/definitions/BOOL"
-                },
-                "xComissionado_Sentido": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Comissionamento"
-                        }
-                    ]
-                },
-                "xComissionado_Velo": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Conversao de velo em automatico"
-                        }
-                    ]
-                },
-                "xInverteSentido": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "bit pra inverrter o sentido do inversor"
-                        }
-                    ]
-                },
-                "xTemFreio": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "variavel que diz que tem freio"
-                        }
-                    ]
-                },
-                "xTemReversao": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Tempo para reversao sem tirar o comando de marcha"
-                        }
-                    ]
-                },
-                "xTudoComissionado": {
-                    "$ref": "tchmi:general#/definitions/BOOL"
-                },
-                "xVeloEmMetroPMin": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "usa a conversao para calcular a velocidade usada"
-                        }
-                    ]
-                },
-                "xVeloEmPorcentagem": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "usa o valor de 0-100% para controle da velo"
-                        }
-                    ]
-                }
+                "type": "object"
             },
-            "type": "object"
-        },
-        "PLC1.Teknike_Partidas.EntradaPartida": {
-            "properties": {
-                "i": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/INT"
-                        },
-                        {
-                            "comment": "index atual para a IHM"
-                        }
-                    ]
+            "PLC1.Teknike_Partidas.EntradaPartida": {
+                "properties": {
+                    "i": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/INT"
+                            },
+                            {
+                                "comment": "index atual para a IHM"
+                            }
+                        ]
+                    },
+                    "iSenhaAtual": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/INT"
+                            },
+                            {
+                                "comment": "Senha que aparece no HMI"
+                            }
+                        ]
+                    },
+                    "iSenhaBloqueio": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/INT"
+                            },
+                            {
+                                "comment": "Senha de bloqueio"
+                            }
+                        ]
+                    },
+                    "sInterLock_1": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                            },
+                            {
+                                "comment": "porque o bloqueio 1"
+                            }
+                        ]
+                    },
+                    "sInterLock_2": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                            },
+                            {
+                                "comment": "porque o bloqueio 1"
+                            }
+                        ]
+                    },
+                    "sInterLock_3": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                            },
+                            {
+                                "comment": "porque o bloqueio 1"
+                            }
+                        ]
+                    },
+                    "sInterLock_4": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                            },
+                            {
+                                "comment": "porque o bloqueio 1"
+                            }
+                        ]
+                    },
+                    "stHoraAgora": {
+                        "allOf": [
+                            {
+                                "$ref": "#/definitions/PLC1.Tc2_Utilities.TIMESTRUCT"
+                            },
+                            {
+                                "comment": "struct de hora para o horimetro"
+                            }
+                        ]
+                    },
+                    "xAutomaticoManual": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "se automatico = true se manual = false"
+                            }
+                        ]
+                    },
+                    "xBloqueado": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Sinal de Bloqueio"
+                            }
+                        ]
+                    },
+                    "xContatorLigado": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Status da contatora ou do drive de que o motor partiu"
+                            }
+                        ]
+                    },
+                    "xDisjuntorOK": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Status do disjuntor motor"
+                            }
+                        ]
+                    },
+                    "xEmergenciaOK": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Sinal de Emergência"
+                            }
+                        ]
+                    },
+                    "xFalhaInversor": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "se o inversor tiver qualquer outra falha que nao seja perda de conexao"
+                            }
+                        ]
+                    },
+                    "xFazendoComissionamento": {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    "xFreioOK": {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    "xInterLock_1": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "sinal para bloquear a partida"
+                            }
+                        ]
+                    },
+                    "xInterLock_2": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "sinal para bloquear a partida"
+                            }
+                        ]
+                    },
+                    "xInterLock_3": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "sinal para bloquear a partida"
+                            }
+                        ]
+                    },
+                    "xInterLock_4": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "sinal para bloquear a partida"
+                            }
+                        ]
+                    },
+                    "xInversorOnline": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "se etiver online"
+                            }
+                        ]
+                    },
+                    "xLigaAuto": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "liga inversor em automatico"
+                            }
+                        ]
+                    },
+                    "xLigaManu": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "liga inversor em manual"
+                            }
+                        ]
+                    },
+                    "xLigaManu3S": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Liga por 3 segundos em manual(Para comissionamento)"
+                            }
+                        ]
+                    },
+                    "xReset": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Sinal para resetar as falhas"
+                            }
+                        ]
+                    },
+                    "xResetRegistros": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Sinal apra resetar os contadores e registradores"
+                            }
+                        ]
+                    },
+                    "xReversoAuto": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "habilita reverso em automatico"
+                            }
+                        ]
+                    },
+                    "xReversoManu": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "liga inversor em manual"
+                            }
+                        ]
+                    },
+                    "xTemInversor": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "define se o bloco considera ou nao uma conexao"
+                            }
+                        ]
+                    }
                 },
-                "iSenhaAtual": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/INT"
-                        },
-                        {
-                            "comment": "Senha que aparece no HMI"
-                        }
-                    ]
-                },
-                "iSenhaBloqueio": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/INT"
-                        },
-                        {
-                            "comment": "Senha de bloqueio"
-                        }
-                    ]
-                },
-                "sInterLock_1": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                        },
-                        {
-                            "comment": "porque o bloqueio 1"
-                        }
-                    ]
-                },
-                "sInterLock_2": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                        },
-                        {
-                            "comment": "porque o bloqueio 1"
-                        }
-                    ]
-                },
-                "sInterLock_3": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                        },
-                        {
-                            "comment": "porque o bloqueio 1"
-                        }
-                    ]
-                },
-                "sInterLock_4": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                        },
-                        {
-                            "comment": "porque o bloqueio 1"
-                        }
-                    ]
-                },
-                "stHoraAgora": {
-                    "allOf": [
-                        {
-                            "$ref": "#/definitions/PLC1.Tc2_Utilities.TIMESTRUCT"
-                        },
-                        {
-                            "comment": "struct de hora para o horimetro"
-                        }
-                    ]
-                },
-                "xAutomaticoManual": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "se automatico = true se manual = false"
-                        }
-                    ]
-                },
-                "xBloqueado": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Sinal de Bloqueio"
-                        }
-                    ]
-                },
-                "xContatorLigado": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Status da contatora ou do drive de que o motor partiu"
-                        }
-                    ]
-                },
-                "xDisjuntorOK": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Status do disjuntor motor"
-                        }
-                    ]
-                },
-                "xEmergenciaOK": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Sinal de Emergência"
-                        }
-                    ]
-                },
-                "xFalhaInversor": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "se o inversor tiver qualquer outra falha que nao seja perda de conexao"
-                        }
-                    ]
-                },
-                "xFazendoComissionamento": {
-                    "$ref": "tchmi:general#/definitions/BOOL"
-                },
-                "xFreioOK": {
-                    "$ref": "tchmi:general#/definitions/BOOL"
-                },
-                "xInterLock_1": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "sinal para bloquear a partida"
-                        }
-                    ]
-                },
-                "xInterLock_2": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "sinal para bloquear a partida"
-                        }
-                    ]
-                },
-                "xInterLock_3": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "sinal para bloquear a partida"
-                        }
-                    ]
-                },
-                "xInterLock_4": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "sinal para bloquear a partida"
-                        }
-                    ]
-                },
-                "xInversorOnline": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "se etiver online"
-                        }
-                    ]
-                },
-                "xLigaAuto": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "liga inversor em automatico"
-                        }
-                    ]
-                },
-                "xLigaManu": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "liga inversor em manual"
-                        }
-                    ]
-                },
-                "xLigaManu3S": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Liga por 3 segundos em manual(Para comissionamento)"
-                        }
-                    ]
-                },
-                "xReset": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Sinal para resetar as falhas"
-                        }
-                    ]
-                },
-                "xResetRegistros": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Sinal apra resetar os contadores e registradores"
-                        }
-                    ]
-                },
-                "xReversoAuto": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "habilita reverso em automatico"
-                        }
-                    ]
-                },
-                "xReversoManu": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "liga inversor em manual"
-                        }
-                    ]
-                },
-                "xTemInversor": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "define se o bloco considera ou nao uma conexao"
-                        }
-                    ]
-                }
+                "type": "object"
             },
-            "type": "object"
-        },
-        "PLC1.Teknike_Partidas.KPI_Partida": {
-            "properties": {
-                "rPorcDesligado": {
-                    "$ref": "tchmi:general#/definitions/REAL"
+            "PLC1.Teknike_Partidas.KPI_Partida": {
+                "properties": {
+                    "rPorcDesligado": {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    "rPorcEmergencia": {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    "rPorcFalha": {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    "rPorcInterlock": {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    "rPorcLigado": {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    "tDesligado": {
+                        "$ref": "tchmi:general#/definitions/TIME"
+                    },
+                    "tEmergencia": {
+                        "$ref": "tchmi:general#/definitions/TIME"
+                    },
+                    "tFalha": {
+                        "$ref": "tchmi:general#/definitions/TIME"
+                    },
+                    "tInterlock": {
+                        "$ref": "tchmi:general#/definitions/TIME"
+                    },
+                    "tLigado": {
+                        "$ref": "tchmi:general#/definitions/TIME"
+                    }
                 },
-                "rPorcEmergencia": {
-                    "$ref": "tchmi:general#/definitions/REAL"
-                },
-                "rPorcFalha": {
-                    "$ref": "tchmi:general#/definitions/REAL"
-                },
-                "rPorcInterlock": {
-                    "$ref": "tchmi:general#/definitions/REAL"
-                },
-                "rPorcLigado": {
-                    "$ref": "tchmi:general#/definitions/REAL"
-                },
-                "tDesligado": {
-                    "$ref": "tchmi:general#/definitions/TIME"
-                },
-                "tEmergencia": {
-                    "$ref": "tchmi:general#/definitions/TIME"
-                },
-                "tFalha": {
-                    "$ref": "tchmi:general#/definitions/TIME"
-                },
-                "tInterlock": {
-                    "$ref": "tchmi:general#/definitions/TIME"
-                },
-                "tLigado": {
-                    "$ref": "tchmi:general#/definitions/TIME"
-                }
+                "type": "object"
             },
-            "type": "object"
-        },
-        "PLC1.Teknike_Partidas.SaidaPartida": {
-            "properties": {
-                "iDisjDesarm": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/INT"
-                        },
-                        {
-                            "comment": "Contagem do numero de desarmes do disjuntor"
-                        }
-                    ]
+            "PLC1.Teknike_Partidas.SaidaPartida": {
+                "properties": {
+                    "iDisjDesarm": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/INT"
+                            },
+                            {
+                                "comment": "Contagem do numero de desarmes do disjuntor"
+                            }
+                        ]
+                    },
+                    "iFalhaPartida": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/INT"
+                            },
+                            {
+                                "comment": "Contagem do numero de falhas na partida do bloco"
+                            }
+                        ]
+                    },
+                    "iPartidas": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/INT"
+                            },
+                            {
+                                "comment": "Contagem do numero de partidas com sucesso do bloco"
+                            }
+                        ]
+                    },
+                    "iStsMotor": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/INT"
+                            },
+                            {
+                                "comment": "olhas no action ststus para entender"
+                            }
+                        ]
+                    },
+                    "iVelocidade": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/INT"
+                            },
+                            {
+                                "comment": "velocidade para bloco de comunicação"
+                            }
+                        ]
+                    },
+                    "rCorrente": {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    "rTemperaturaInver": {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    "rTemperaturaMotor": {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    "rTorque": {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    "rVelocidadeHz": {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    "rVelocidadeRPM": {
+                        "$ref": "tchmi:general#/definitions/REAL"
+                    },
+                    "rVoltagemEntrada": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/REAL"
+                            },
+                            {
+                                "comment": "dados vindo do inversor, coloquei aqui para facilitar a visualização"
+                            }
+                        ]
+                    },
+                    "sHorimetro": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "sStatusConexao": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "sUltimoErro": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "tHorimetro": {
+                        "$ref": "tchmi:general#/definitions/TIME"
+                    },
+                    "xCmdFwd": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Liga Motor pra frente"
+                            }
+                        ]
+                    },
+                    "xCmdRev": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Liga Motor pra Tras"
+                            }
+                        ]
+                    },
+                    "xFalha": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "Partida em falha"
+                            }
+                        ]
+                    },
+                    "xLigado": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "sinal que o motor ta ligado, apesar de ele ter parado para fazer a reversao ou pelos interlocks"
+                            }
+                        ]
+                    },
+                    "xNaoLigaProxMotor": {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    "xParadoPorInterlock": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "se ele parar por algum interlock ele mostra aqui"
+                            }
+                        ]
+                    },
+                    "xResetParaInversor": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "sinal para o drive dar reset"
+                            }
+                        ]
+                    },
+                    "xTrocandoSentido": {
+                        "allOf": [
+                            {
+                                "$ref": "tchmi:general#/definitions/BOOL"
+                            },
+                            {
+                                "comment": "quando ta trocando o sentido do motor ele deixa esse em true"
+                            }
+                        ]
+                    }
                 },
-                "iFalhaPartida": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/INT"
-                        },
-                        {
-                            "comment": "Contagem do numero de falhas na partida do bloco"
-                        }
-                    ]
-                },
-                "iPartidas": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/INT"
-                        },
-                        {
-                            "comment": "Contagem do numero de partidas com sucesso do bloco"
-                        }
-                    ]
-                },
-                "iStsMotor": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/INT"
-                        },
-                        {
-                            "comment": "olhas no action ststus para entender"
-                        }
-                    ]
-                },
-                "iVelocidade": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/INT"
-                        },
-                        {
-                            "comment": "velocidade para bloco de comunicação"
-                        }
-                    ]
-                },
-                "rCorrente": {
-                    "$ref": "tchmi:general#/definitions/REAL"
-                },
-                "rTemperaturaInver": {
-                    "$ref": "tchmi:general#/definitions/REAL"
-                },
-                "rTemperaturaMotor": {
-                    "$ref": "tchmi:general#/definitions/REAL"
-                },
-                "rTorque": {
-                    "$ref": "tchmi:general#/definitions/REAL"
-                },
-                "rVelocidadeHz": {
-                    "$ref": "tchmi:general#/definitions/REAL"
-                },
-                "rVelocidadeRPM": {
-                    "$ref": "tchmi:general#/definitions/REAL"
-                },
-                "rVoltagemEntrada": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/REAL"
-                        },
-                        {
-                            "comment": "dados vindo do inversor, coloquei aqui para facilitar a visualização"
-                        }
-                    ]
-                },
-                "sHorimetro": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "sStatusConexao": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "sUltimoErro": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "tHorimetro": {
-                    "$ref": "tchmi:general#/definitions/TIME"
-                },
-                "xCmdFwd": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Liga Motor pra frente"
-                        }
-                    ]
-                },
-                "xCmdRev": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Liga Motor pra Tras"
-                        }
-                    ]
-                },
-                "xFalha": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "Partida em falha"
-                        }
-                    ]
-                },
-                "xLigado": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "sinal que o motor ta ligado, apesar de ele ter parado para fazer a reversao ou pelos interlocks"
-                        }
-                    ]
-                },
-                "xNaoLigaProxMotor": {
-                    "$ref": "tchmi:general#/definitions/BOOL"
-                },
-                "xParadoPorInterlock": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "se ele parar por algum interlock ele mostra aqui"
-                        }
-                    ]
-                },
-                "xResetParaInversor": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "sinal para o drive dar reset"
-                        }
-                    ]
-                },
-                "xTrocandoSentido": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:general#/definitions/BOOL"
-                        },
-                        {
-                            "comment": "quando ta trocando o sentido do motor ele deixa esse em true"
-                        }
-                    ]
-                }
+                "type": "object"
             },
-            "type": "object"
-        },
-        "PLC1.Teknike_Partidas.st_LeConfigPartidaNoBanco": {
-            "properties": {
-                "Funcao": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
+            "PLC1.Teknike_Partidas.st_LeConfigPartidaNoBanco": {
+                "properties": {
+                    "Funcao": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "IT1A": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "IT1B": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "IT2A": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "IT2B": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "IT3A": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "IT3B": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "IT4A": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "IT4B": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "InvIT1A": {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    "InvIT1B": {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    "InvIT2A": {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    "InvIT2B": {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    "InvIT3A": {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    "InvIT3B": {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    "InvIT4A": {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    "InvIT4B": {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    "Motor": {
+                        "$ref": "#/definitions/PLC1.Tc2_Utilities.T_ULARGE_INTEGER"
+                    },
+                    "OPIT1": {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    "OPIT2": {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    "OPIT3": {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    "OPIT4": {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    "Tag": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "Timestamp": {
+                        "$ref": "tchmi:general#/definitions/DATE_AND_TIME"
+                    }
                 },
-                "IT1A": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "IT1B": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "IT2A": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "IT2B": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "IT3A": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "IT3B": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "IT4A": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "IT4B": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "InvIT1A": {
-                    "$ref": "tchmi:general#/definitions/INT"
-                },
-                "InvIT1B": {
-                    "$ref": "tchmi:general#/definitions/INT"
-                },
-                "InvIT2A": {
-                    "$ref": "tchmi:general#/definitions/INT"
-                },
-                "InvIT2B": {
-                    "$ref": "tchmi:general#/definitions/INT"
-                },
-                "InvIT3A": {
-                    "$ref": "tchmi:general#/definitions/INT"
-                },
-                "InvIT3B": {
-                    "$ref": "tchmi:general#/definitions/INT"
-                },
-                "InvIT4A": {
-                    "$ref": "tchmi:general#/definitions/INT"
-                },
-                "InvIT4B": {
-                    "$ref": "tchmi:general#/definitions/INT"
-                },
-                "Motor": {
-                    "$ref": "#/definitions/PLC1.Tc2_Utilities.T_ULARGE_INTEGER"
-                },
-                "OPIT1": {
-                    "$ref": "tchmi:general#/definitions/INT"
-                },
-                "OPIT2": {
-                    "$ref": "tchmi:general#/definitions/INT"
-                },
-                "OPIT3": {
-                    "$ref": "tchmi:general#/definitions/INT"
-                },
-                "OPIT4": {
-                    "$ref": "tchmi:general#/definitions/INT"
-                },
-                "Tag": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "Timestamp": {
-                    "$ref": "tchmi:general#/definitions/DATE_AND_TIME"
-                }
+                "type": "object"
             },
-            "type": "object"
-        },
-        "PLC1.Teknike_Partidas.st_LeiturasInversorIHM": {
-            "properties": {
-                "sCorrente": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
+            "PLC1.Teknike_Partidas.st_LeiturasInversorIHM": {
+                "properties": {
+                    "sCorrente": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "sStatusConexao": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "sTemperaturaInver": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "sTemperaturaMotor": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "sTorque": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "sUltimoErro": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "sVelocidadeHz": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "sVelocidadeRPM": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    },
+                    "sVoltagemEntrada": {
+                        "$ref": "tchmi:general#/definitions/STRING%2880%29"
+                    }
                 },
-                "sStatusConexao": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "sTemperaturaInver": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "sTemperaturaMotor": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "sTorque": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "sUltimoErro": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "sVelocidadeHz": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "sVelocidadeRPM": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                },
-                "sVoltagemEntrada": {
-                    "$ref": "tchmi:general#/definitions/STRING%2880%29"
-                }
+                "type": "object"
             },
-            "type": "object"
-        },
-        "PLC1.Teknike_Partidas.st_Partida": {
-            "properties": {
-                "Config": {
-                    "$ref": "#/definitions/PLC1.Teknike_Partidas.Config_Partida"
+            "PLC1.Teknike_Partidas.st_Partida": {
+                "properties": {
+                    "Config": {
+                        "$ref": "#/definitions/PLC1.Teknike_Partidas.Config_Partida"
+                    },
+                    "En": {
+                        "$ref": "#/definitions/PLC1.Teknike_Partidas.EntradaPartida"
+                    },
+                    "InterlocksBancoDeDados": {
+                        "$ref": "#/definitions/PLC1.Teknike_Partidas.st_LeConfigPartidaNoBanco"
+                    },
+                    "KPI": {
+                        "$ref": "#/definitions/PLC1.ARRAY_0..23_OF-Teknike_Partidas.KPI_Partida"
+                    },
+                    "LeiturasInversorIHM": {
+                        "$ref": "#/definitions/PLC1.Teknike_Partidas.st_LeiturasInversorIHM"
+                    },
+                    "Sa": {
+                        "$ref": "#/definitions/PLC1.Teknike_Partidas.SaidaPartida"
+                    }
                 },
-                "En": {
-                    "$ref": "#/definitions/PLC1.Teknike_Partidas.EntradaPartida"
-                },
-                "InterlocksBancoDeDados": {
-                    "$ref": "#/definitions/PLC1.Teknike_Partidas.st_LeConfigPartidaNoBanco"
-                },
-                "KPI": {
-                    "$ref": "#/definitions/PLC1.ARRAY_0..23_OF-Teknike_Partidas.KPI_Partida"
-                },
-                "LeiturasInversorIHM": {
-                    "$ref": "#/definitions/PLC1.Teknike_Partidas.st_LeiturasInversorIHM"
-                },
-                "Sa": {
-                    "$ref": "#/definitions/PLC1.Teknike_Partidas.SaidaPartida"
-                }
-            },
-            "type": "object"
+                "type": "object"
+            }
         }
     },
     "DEFLATECOMPRESSIONLEVEL": 5,
     "DIAGNOSTICS_DOMAINS": [],
     "DISABLED_CONFIGURATION_HINTS": [],
     "DISCOVERY": 2,
-    "ENABLE_SERVER_UPDATE": true,
     "ENDPOINTS": [
-        "http://127.0.0.1:13001",
+        "http://127.0.0.1:13002",
         "http://127.0.0.1:3003"
     ],
     "ETAGENABLED": true,
     "EXTENSIONS": {
         "ADS": {
             "ENABLED": true,
+            "METADATA": {
+                "migrationVersion": "1.14",
+                "previousVersions": [
+                    "1.12"
+                ]
+            },
             "NAME": "TcHmiAds",
             "PATH": "TcHmiAds\\",
             "PROCESSID": -1,
@@ -996,14 +1003,26 @@
         },
         "TcHmiLua": {
             "ENABLED": true,
+            "METADATA": {
+                "migrationVersion": "1.14",
+                "previousVersions": [
+                    "1.12"
+                ]
+            },
             "NAME": "TcHmiLua",
             "PATH": "TcHmiLua\\",
             "PROCESSID": -1,
             "REQUIRED": true,
-            "STARTUPTYPE": 1
+            "STARTUPTYPE": 0
         },
         "TcHmiSqliteLogger": {
             "ENABLED": true,
+            "METADATA": {
+                "migrationVersion": "1.14",
+                "previousVersions": [
+                    "1.12"
+                ]
+            },
             "NAME": "TcHmiSqliteLogger",
             "PATH": "TcHmiSqliteLogger\\",
             "PROCESSID": -1,
@@ -1012,6 +1031,12 @@
         },
         "TcHmiUserManagement": {
             "ENABLED": true,
+            "METADATA": {
+                "migrationVersion": "1.14",
+                "previousVersions": [
+                    "1.12"
+                ]
+            },
             "NAME": "TcHmiUserManagement",
             "PATH": "TcHmiUserManagement\\",
             "PROCESSID": -1,
@@ -1019,11 +1044,153 @@
             "STARTUPTYPE": 1
         }
     },
-    "FILES": {},
+    "FILES": {
+        "/Properties/tchmicertificates.config.json": {
+            "ACCESS": 0,
+            "HTTPSTATUSCODE": "404"
+        },
+        "/Properties/tchmipublish.config.json": {
+            "ACCESS": 0,
+            "HTTPSTATUSCODE": "404"
+        }
+    },
     "FILESREGEX": [
         {
             "FILESHTTPHEADERS": "Content-Security-Policy: frame-ancestors 'self'",
             "REGEX": ".*\\.(xml|config|htm|html|shtml)$"
+        },
+        {
+            "ENABLE_GZIP": true,
+            "FILESHTTPHEADERS": "Content-Security-Policy: frame-ancestors 'self'\r\n Content-Type: text/html",
+            "REGEX": ".*\\.(xml|htm|html|shtml)$"
+        },
+        {
+            "ENABLE_GZIP": true,
+            "FILESHTTPHEADERS": "Content-Type: text/plain",
+            "REGEX": ".*\\.(txt|view|content|usercontrol)$"
+        },
+        {
+            "ENABLE_GZIP": true,
+            "FILESHTTPHEADERS": "Content-Type: text/xml",
+            "REGEX": ".*\\.(config|xml)$"
+        },
+        {
+            "ENABLE_GZIP": true,
+            "FILESHTTPHEADERS": "Content-Type: text/javascript",
+            "REGEX": ".*\\.(js|mjs|jsonp)$"
+        },
+        {
+            "ENABLE_GZIP": true,
+            "FILESHTTPHEADERS": "Content-Type: image/svg+xml",
+            "REGEX": ".*\\.(svg)$"
+        },
+        {
+            "ENABLE_GZIP": true,
+            "FILESHTTPHEADERS": "Content-Type: application/json",
+            "REGEX": ".*\\.(json|map|localization|theme)$"
+        },
+        {
+            "FILESHTTPHEADERS": "Content-Type: application/pdf",
+            "REGEX": ".*\\.(pdf)$"
+        },
+        {
+            "FILESHTTPHEADERS": "Content-Type: image/gif",
+            "REGEX": ".*\\.(gif)$"
+        },
+        {
+            "FILESHTTPHEADERS": "Content-Type: image/jpeg",
+            "REGEX": ".*\\.(jpeg|jpg)$"
+        },
+        {
+            "FILESHTTPHEADERS": "Content-Type: image/png",
+            "REGEX": ".*\\.(png)$"
+        },
+        {
+            "ENABLE_GZIP": true,
+            "FILESHTTPHEADERS": "Content-Type: image/bmp",
+            "REGEX": ".*\\.(bmp)$"
+        },
+        {
+            "ENABLE_GZIP": true,
+            "FILESHTTPHEADERS": "Content-Type: image/x-icon",
+            "REGEX": ".*\\.(ico)$"
+        },
+        {
+            "ENABLE_GZIP": true,
+            "FILESHTTPHEADERS": "Content-Type: text/css",
+            "REGEX": ".*\\.(css)$"
+        },
+        {
+            "FILESHTTPHEADERS": "Content-Type: application/octet-stream",
+            "REGEX": ".*\\.(bin|dll|exe|img|iso)$"
+        },
+        {
+            "FILESHTTPHEADERS": "Content-Type: application/java-archive",
+            "REGEX": ".*\\.(ear|jar|war)$"
+        },
+        {
+            "ENABLE_GZIP": true,
+            "FILESHTTPHEADERS": "Content-Type: vnd.ms-fontobject",
+            "REGEX": ".*\\.(eot)$"
+        },
+        {
+            "ENABLE_GZIP": true,
+            "FILESHTTPHEADERS": "Content-Type: application/font-sfnt",
+            "REGEX": ".*\\.(ttf|otf)$"
+        },
+        {
+            "FILESHTTPHEADERS": "Content-Type: application/font-woff",
+            "REGEX": ".*\\.(woff)$"
+        },
+        {
+            "FILESHTTPHEADERS": "Content-Type: application/font-woff2",
+            "REGEX": ".*\\.(woff2)$"
+        },
+        {
+            "FILESHTTPHEADERS": "Content-Type: application/zip",
+            "REGEX": ".*\\.(zip)$"
+        },
+        {
+            "ENABLE_CACHE": false,
+            "ENABLE_CHUNKING": false,
+            "FILESHTTPHEADERS": "Content-Type: video/mp4",
+            "REGEX": ".*\\.(mp4)$"
+        },
+        {
+            "ENABLE_CACHE": false,
+            "ENABLE_CHUNKING": false,
+            "FILESHTTPHEADERS": "Content-Type: audio/mpeg",
+            "REGEX": ".*\\.(mp3)$"
+        },
+        {
+            "ENABLE_CACHE": false,
+            "ENABLE_CHUNKING": false,
+            "FILESHTTPHEADERS": "Content-Type: video/webm",
+            "REGEX": ".*\\.(webm)$"
+        },
+        {
+            "ENABLE_CACHE": false,
+            "ENABLE_CHUNKING": false,
+            "FILESHTTPHEADERS": "Content-Type: video/ogg",
+            "REGEX": ".*\\.(ogg)$"
+        },
+        {
+            "ENABLE_CACHE": false,
+            "ENABLE_CHUNKING": false,
+            "FILESHTTPHEADERS": "Content-Type: video/ogg",
+            "REGEX": ".*\\.(ogv)$"
+        },
+        {
+            "ENABLE_CACHE": false,
+            "ENABLE_CHUNKING": false,
+            "FILESHTTPHEADERS": "Content-Type: application/x-pem-file",
+            "REGEX": ".*\\.(pem)$"
+        },
+        {
+            "ENABLE_CACHE": false,
+            "ENABLE_CHUNKING": false,
+            "FILESHTTPHEADERS": "Content-Type: application/x-x509-ca-cert",
+            "REGEX": ".*\\.(pem)$"
         }
     ],
     "FLOODPROTECTION": 500,
@@ -1034,360 +1201,22 @@
     "HTTP_FLOODPROTECTION": 10,
     "INITTIMEOUT": "PT10S",
     "KEEP_ALIVE": "PT40S",
-    "KEY": "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUV2UUlCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktjd2dnU2pBZ0VBQW9JQkFRREhtdllJLzdUNFZMYk0KYjdDTllRbTdUUnBUSUJ5SGtScjZ0b1VsdmNBY0Y3TFE5N2NqbDNTMTNmd0FHSmdxRndwK0NRZ2xUMk9ucnZMbwo4L0M5ZWVRM00ycGVkeTNVaTJlSk1ZcWtYNU9jVjFTZm1QVkVDcTVEanpndTRHL3p6UW1vOGgvY050RW1oOVB2CmNlNFdOR3Qzdk1xVUdFUnB6L0tQNWpCdnN6dmZTbFpTUHVSdFd3SmRsT1VZVENlZ3FzQ3hiNDF4akdwcC9xWEMKdENXQ2dQZWtYZUlyOFQ3ZHAwbm42QnhBeTc5QmtzSitwSGcvdXVxbGhFWmM3M3ZDajU1SytSb29YdllsSnQzSwpCVnU0ZjdnenJpb3pFWmw3bUVvQnJQZ0l3dWpGQW1NK0Q1TFRuRVViakZNeHBjaXJldVllWTVyQTRabzZZT2VqCmhQTll5bWcxQWdNQkFBRUNnZ0VBY1p3NzZjZFJnLzhEeEx6VnFzTE92VE1YaHJUQ1NFOUpJZVo5Um93SUtuVTYKckVJeWxTbUJubnBwRXN6czN4Z2FPcjU5U204emM1L2FWc2x4L3dhLzVNTjVDYWVnQ0ZnSWFFZ3dkM3FIRS9lSgpEUVlNbzl2SWNGKzJSTWd1TUlCRnZVbUM1TjYya00zQ3pZajFVT0lwUVEvTjVoa2g1M0FheWRqbFBNNnhoMWRQClYwTWhaVjJXem9jc1JCOGZnRnpVREMzeU53TFFLMW4vT09EeU0yclVpR3lsSFdha091VE1zWktYY2srMXBhTTYKVFdvTUk3YUZQS0d0SjZ5SnhTWXJiVDF0OHRHSGRkLytPN29OZEZMTWdQK1NpcWpZVXdqQlFnWVBBWVl2d2t3dQpQbTh5Y3RPUEFhV3JkQUQwMXlieDU4S21OWGYvUXJOMzZ1VWtRbTdmaVFLQmdRRDkxcHRYcmg5Z3N5SkhIaUNzCnhRU1d4SXhwdVhxRXZiRFIvYzJzdFRwQXdxbWxGNi9yV0lVQWtWRjVveHBlakhYdzJvYUpkUlEyZ1l5elY0dDMKQWo0NVRuZGZrUjltZXJlNFI4U1ZEZXdPMHFlK0FtaUZpWjdXeDFENUFSYnBBR0tyR1hCRjFvSzBBbmE1ODdLVApaN2M1ZTlZaXMzWWJwSmdmampCUDdSejdsd0tCZ1FESlRoN3d0V21IaC9SMU1HQ1M3RUZLUGlGZW42VUhtaVRFCjkzcU5YRkhLbkZwcmltaVpLd0RUWjArMC9SZlFVUVNiWkcxQjNLQ2hYcEhzSmEwSHFjdFlKSjhVaU1qdFdUVm0KdkZvM01CbUdFOTh2QnJ0Nk94SVYvemcwdW1vejF5ZDJ2RUZNNUhaRm81SzNLcDhNb3JVTWt0R3NOYTBnVTBBVgpBQS9rUUNHa0V3S0JnUURDNmt3V28rb01Rd0dMUXFNc2g0emlpTUtaWEllcjdrMGNzcHVBaHhqWUthSkMxMUdLCmtrcHZDU2RiRTlkbnlzdTF5dGVNTFk3NzI3YkM3L0p6ekJFanlCRDZIV0hUTzJCZjdSd1NxTUlmRDdzbXVJcXkKSDk4TVpialR1L1p2ckpBWGVrMHdFMndCOWZKZEQ3aU1ZQlBkM0MydUw4ZjlxZ0gyR1NVWCtxZEt1UUtCZ0NLcAp6aEFhM09vV2toU2YyUEZUdDBabWZtNkJ4UFFUS2VPMHphaUx6aFc2YUtOOStOYnZIYnhKWE9OSWRaSk1jU09rCjNsOXA4MHIyTXVCYitIaUtWMVo5TDl0a1ZsendjSTZaUGx1a2I3Q3p1VW1xdWh1cEVrc3hZR2RMOWorbys4V3AKVXdFL2tkSWFBWWlDMFZKbXJoQlZNNytZbXBBblpiQjRDMFI5ZW8xN0FvR0FBWDQySktSVldwTUY0UTJzdW1pOQpiRTRURmFuZFJlcXFFTmFwdUI2WGdwUVIvN3E5TzdwYzBNeThOZjVONVN6TmhyK2JaM09PV0U0YUxPTWJFQ0tqCkM5U25yVEN5MURqMHM2eW55WExzTzhXVlVMV2ZUNmdvNEQwS21pOWNmb3c3VG9OcVVOSmxZWnRoUzV3Mk1iemgKbW13SDVQbVJoV3RaUzdKUFpsYjdSRzg9Ci0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0K",
+    "KEY": "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUV2Z0lCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktnd2dnU2tBZ0VBQW9JQkFRRGlET3VzdnZVTDd0YzAKMXhBRjNvelE5Z0R0T2ZsL2FxN2FlSzdBZkhzeEU0dlB2YkFGdDQyRnNzb3djNC9TakczK3EyZXhlb3RKV3F4dApqVzdlMHJyRjYrZU9raDJEWkdTTmoyQkxvNkxrYmNCQy84NlJ6S1hmTU1xQUt3Sll0S1hncGFvbGt2Q1hFNWFQClJtekgxUGJSSmYySFVlYlBMRkJEakU0a3lWZUVaODNhSFN5WVZGMUNsZVMvOXZYNnlEMzlJK2xiM1puYzFXWnEKdUdHcXoyNDduMksvdGtVaW1pVEVHUmZOR3ZsdG9xRGVsUm9NMnN1Ly84NWl4T2N1cVBTbFpvc0srMHh1ZkxBdgpxS0VhWnZiYUlXMitESlVRcEQ4WjZjUGJPUkZWcEdmS0dKTFUvcDZqSVRITXBVenV1SHlabGF6UVF3SldCYTIwCkphYWtmcXdaQWdNQkFBRUNnZ0VBQmFLRmZCczZmVFNwU3E0OXZsZTJNajMwOTBvN0FrWnZoZzlTRTl4R2hJcFUKaHVEWFNCMHprRUgzc1BqVjBmZ2hoSGYrQldUazlLRjlBTnpHQnhTV1cvbFlkQUVIdy9tM0EvY0VxSDRJd1NHaAo2Wjc2SlpUd3R1ZnBkRmtlSFlYMTgwRk43MzB0Tlh3NGhENTJMR080K2dKZmJUQnp6TXJ4cVVLN0dVYjg2OVpQCjZoWnRscHlTdG45LzBkazVMbDhoaWFhdXdGY0dDcVdRYUZ3SlNlTWxJanJtaGlQMlI4d2d6cTM3emRocThKN0UKYmM2Skw1Rjg4dXNhcjEzTTFDaVh3N0xwdVpFYWpCdkdqSlg2ZTRoQ08wZ2ZiVkRpekZvdmlhWTBsNVRoZ1lqZgp0ekdLdzk5UDVwSUFpY2psZnBzdjlHSkpkLzF4dWgxUVU4UEVDTkxpc1FLQmdRRDlIN0NjWDNwRUF1TlNmYnJPCnNmUnNGRUtsbXRndlBZVFh1U1VoM0VEN05uUTdzUllrWm1TeGlYSmhZaTdoMGdlelZ6NVFiZndPQThIb3llZ3IKdVdCempjMHlFSGEwTDBBTDdPMm05bmIvODJnZ2plZEYveXVBdExOL1FaNGdrQ1B5N2dyeUFMeTR4NjI3MU5VYwpSQTI4dUlxZGI2cCsrTDN2MG9maHpxb0R6UUtCZ1FEa25ub3g3dHpyc0gyQTk0aUQ2REtJNjUwajhKYnUrN29DCmdra3ZHcGdCUDFvbVVjWlpmOUJ3VlloSjV0YmQxTERieUpYSWdlRUN1YXlKOU8xcXFJTGNxbExEMDY2NjJGWksKUWJVZHZJQjdPdmx3UmVEZE5tZGQ4ZENIczhDeE1JVyt3cTNqclI4eW01Vnl3MDFNc0o2TEZkQnNrbkRjQmRWdgpyS0xkK05jVmZRS0JnUUNYN0hoTk1zVW9vdThicU5rQmpDK2UydjR4ZFdIQjROT2x3cnMxdW9QS0E2SDUzY3pqClpnMlR2V0pJYnV5aW56UCtBU1FtbEF6UHdKT1hDL0JzcGVQdEZ6UU1rM01ickt4dE8vUmIzTndKdldkRytzVFAKNzFxRjhtODF0d1dZbDhycjJOSDY5RlJSTjQvZ0I5c3REdStMME50cHFRY1ZGR2l6MDVHNUJ4aG1GUUtCZ1FEYgoxcmpTUTBzVktRWEdla0UvOW95QnRXL0tHNVJJQXEvL3NhRUdOcUJzc3FyUnBsa0J2ektFa3ZzWGRXNndxZEhYCnhxNmh2S0xPcUJVT0pBUVpTQ2x1WUNwdVBLUU03L01xUEwwWTl5YmxXUFI3emZaSlFnTnNCeGZySmlMcFFDdWMKSUVCdWF3OVE3dU5yRS9yRkFDRzB4U2xDL2g2Z3RNdGxNN0Q1bWt2WlVRS0JnRzVMTzNGWUpLUE9vYkZ1cTZhWAo1L0g3dXlzOWZkeHhwdmUrRjNDVER0ZnNsOHRVb3FsYnpXTGovL01yU2VFSjdIR1FYa0E5M2FkZ3Q5enhNR290CjlZNzR4aFlxbGp0dDhzUVVQeTlkMlJrcm4wVlNmRWZjeldFOWV4OHBwMGhkdU1lTlc4TURMOFZrNlk3aWYrNTAKTUpQcFRjUTg3c2FDSlpsdC9tcGlwTUFuCi0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0K",
     "KEYPASSWORD": "",
-    "LOCKOUT_PROTECTION_CLIENT_CERTIFICATE": true,
     "MAXCONNECTIONSPERCLIENT": 32,
     "MAXHTTPHEADERSIZE": 32768,
     "MAXREQUESTSIZE": 1048576,
     "MAXSESSIONS": 128,
-    "MIME": {
-        "bin": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/octet-stream"
-        },
-        "bmp": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "image/bmp"
-        },
-        "cer": {
-            "MIME_ENABLE_CACHE": false,
-            "MIME_ENABLE_CHUNKING": false,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/x-x509-ca-cert"
-        },
-        "config": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "text/xml"
-        },
-        "content": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "text/plain"
-        },
-        "css": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "text/css"
-        },
-        "dll": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/octet-stream"
-        },
-        "ear": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/java-archive"
-        },
-        "eot": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "vnd.ms-fontobject"
-        },
-        "exe": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/octet-stream"
-        },
-        "gif": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "image/gif"
-        },
-        "htm": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "text/html"
-        },
-        "html": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "text/html"
-        },
-        "ico": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "image/x-icon"
-        },
-        "img": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/octet-stream"
-        },
-        "iso": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/octet-stream"
-        },
-        "jar": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/java-archive"
-        },
-        "jpeg": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "image/jpeg"
-        },
-        "jpg": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "image/jpeg"
-        },
-        "js": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/javascript"
-        },
-        "json": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/json"
-        },
-        "jsonp": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/javascript"
-        },
-        "localization": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/json"
-        },
-        "lp": {
-            "MIME_ENABLE_CACHE": false,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "no-store",
-            "MIME_TYPE": "application/lp"
-        },
-        "lua": {
-            "MIME_ENABLE_CACHE": false,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "no-store",
-            "MIME_TYPE": "application/lua"
-        },
-        "map": {
-            "MIME_ENABLE_CACHE": false,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/json"
-        },
-        "mjs": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/javascript"
-        },
-        "mp3": {
-            "MIME_ENABLE_CACHE": false,
-            "MIME_ENABLE_CHUNKING": false,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "audio/mpeg"
-        },
-        "mp4": {
-            "MIME_ENABLE_CACHE": false,
-            "MIME_ENABLE_CHUNKING": false,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "video/mp4"
-        },
-        "ogg": {
-            "MIME_ENABLE_CACHE": false,
-            "MIME_ENABLE_CHUNKING": false,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "video/ogg"
-        },
-        "ogv": {
-            "MIME_ENABLE_CACHE": false,
-            "MIME_ENABLE_CHUNKING": false,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "video/ogg"
-        },
-        "otf": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/font-sfnt"
-        },
-        "pdf": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/pdf"
-        },
-        "pem": {
-            "MIME_ENABLE_CACHE": false,
-            "MIME_ENABLE_CHUNKING": false,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/x-pem-file"
-        },
-        "png": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "image/png"
-        },
-        "shtml": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "text/html"
-        },
-        "svg": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "image/svg+xml"
-        },
-        "theme": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/json"
-        },
-        "ttf": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/font-sfnt"
-        },
-        "txt": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "text/plain"
-        },
-        "usercontrol": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "text/plain"
-        },
-        "view": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "text/plain"
-        },
-        "war": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/java-archive"
-        },
-        "webm": {
-            "MIME_ENABLE_CACHE": false,
-            "MIME_ENABLE_CHUNKING": false,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "video/webm"
-        },
-        "woff": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/font-woff"
-        },
-        "woff2": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/font-woff2"
-        },
-        "xml": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": true,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "text/xml"
-        },
-        "zip": {
-            "MIME_ENABLE_CACHE": true,
-            "MIME_ENABLE_CHUNKING": true,
-            "MIME_ENABLE_GZIP": false,
-            "MIME_HTTP_HEADERS": "",
-            "MIME_TYPE": "application/zip"
-        }
-    },
     "PERMESSAGEDEFLATEENABLED": true,
     "PROJECTNAME": "AsteriscoViraNegrito",
     "PROJECTVERSION": "1.0.0.0",
     "REMOTESERVERS": {},
     "REMOTESERVERS_CERTIFICATES": [],
     "REQUIREAUTH": 0,
+    "REQUIRE_CLIENT_CERTIFICATE": false,
     "SAMESITE_ATTRIBUTE": 2,
-    "SELFSIGNEDROOTCA": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURtVENDQW9HZ0F3SUJBZ0lKQU51Wis3eVRNcWxOTUEwR0NTcUdTSWIzRFFFQkN3VUFNRVF4Q3pBSkJnTlYKQkFZVEFrUkZNUnN3R1FZRFZRUUtEQkpVZDJsdVEwRlVJRWhOU1NCVFpYSjJaWEl4R0RBV0JnTlZCQU1NRDA1dgpkR1V0VkdsaFoyOWZjbTl2ZERBZ0Z3MHlNakEwTVRNeE9ESTFNVGRhR0E4eU1EWXdNRGd4TVRFNE1qVXhOMW93ClJERUxNQWtHQTFVRUJoTUNSRVV4R3pBWkJnTlZCQW9NRWxSM2FXNURRVlFnU0UxSklGTmxjblpsY2pFWU1CWUcKQTFVRUF3d1BUbTkwWlMxVWFXRm5iMTl5YjI5ME1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQgpDZ0tDQVFFQTBDRnZtMnQ4RSs4bi9lNDBURTFCRytQT1VRbXJXUjFuSTZiR0dCUSt6cFovY1d3eVlqbWt3cGxzClAyMmkweFNiQlhxcmMyZmZIQ2hzMXNmdzlRT3lISGs2aXpOUy9xdVJrQVNBYU9iR0ZDRnhUa1RHSnMwZWF6NTQKOHd2MWRNb0tjMDRGcnhBbUVvb3B1T2d4K2t3Mzd6S1lDQktBQWRUMXRhU056VXR6Z0wzYlZEOVNZVE03QXB4LwpSU2RveWMwMVRCaTNGTThSYWF1UWdRek9GZktkWFA3QXZZTzhPT1duemJwcmVkNnVLL1Rtd2JFRGF6WFllMHp3CitNTGdqSWg0MzREZmFzUllYek1NbmFEbFF5U3NmSUh2YkozNnNiZFNudk14SExnT1J1TWZ4bkpKZXFrMHN0OTUKdFNINy9ockRKenJ6aXlSZXFFT0s5L1pyaHh0aWhRSURBUUFCbzRHTE1JR0lNRllHQTFVZEVRUlBNRTJDQ1d4dgpZMkZzYUc5emRJY0Vmd0FBQVljUUFBQUFBQUFBQUFBQUFBQUFBQUFBQVlJS1RtOTBaUzFVYVdGbmI0SUtUbTkwClpTMVVhV0ZuYjRjRXdLZ0JaNGNFcWY1d3lvY0V3S2hrd0RBZEJnTlZIUTRFRmdRVXZoRGtad0dXWFVueS9NYzQKREtDMUVFSVJrS2d3RHdZRFZSMFRBUUgvQkFVd0F3RUIvekFOQmdrcWhraUc5dzBCQVFzRkFBT0NBUUVBc2VBSQp0U0h5QTQ2aFRNTC95ZFZkNmt2N1FiYVh6RkFiZFhtK3lSY1JHYlRZaVgrRnlyRDR3eE5iTU1MdlpMVVAvNEc5CkxERzZrczBTenBYbEpQME90UDRvbHJpN2ZIMjFPVVdQbi9WSVFvK1N0VlYrQXhOUERaQU8yZ0NNZjVPdHUzQ0EKUmtJeUFTY2U5am9xYXlTWGQ5WElYcmJzR1daNk05WlF4TWNhOEtPMVdMelBMM2gzc2xkZHlUTkhnWGNpKzV0SwpzWTlCRGF6em5vZXR6MURCTi9OKzdHUzdCMlhHMmNMUVlxVStuekVUQ1B3M3RsQWJDMk5TblAwYndRY0dNMmJkCmNKc3J4bkhneWFpbE1VL1gzMGRBaEd2enZVTkdjaFRPWlZhV3d6ZFZFZlVlYU0xOEdiKzFzb3dWeVFDd0VnbVIKdFN6MkNldzFXTzRqMEZkS3BBPT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=",
-    "SELFSIGNEDROOTCAKEY": "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUV2UUlCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktjd2dnU2pBZ0VBQW9JQkFRREhtdllJLzdUNFZMYk0KYjdDTllRbTdUUnBUSUJ5SGtScjZ0b1VsdmNBY0Y3TFE5N2NqbDNTMTNmd0FHSmdxRndwK0NRZ2xUMk9ucnZMbwo4L0M5ZWVRM00ycGVkeTNVaTJlSk1ZcWtYNU9jVjFTZm1QVkVDcTVEanpndTRHL3p6UW1vOGgvY050RW1oOVB2CmNlNFdOR3Qzdk1xVUdFUnB6L0tQNWpCdnN6dmZTbFpTUHVSdFd3SmRsT1VZVENlZ3FzQ3hiNDF4akdwcC9xWEMKdENXQ2dQZWtYZUlyOFQ3ZHAwbm42QnhBeTc5QmtzSitwSGcvdXVxbGhFWmM3M3ZDajU1SytSb29YdllsSnQzSwpCVnU0ZjdnenJpb3pFWmw3bUVvQnJQZ0l3dWpGQW1NK0Q1TFRuRVViakZNeHBjaXJldVllWTVyQTRabzZZT2VqCmhQTll5bWcxQWdNQkFBRUNnZ0VBY1p3NzZjZFJnLzhEeEx6VnFzTE92VE1YaHJUQ1NFOUpJZVo5Um93SUtuVTYKckVJeWxTbUJubnBwRXN6czN4Z2FPcjU5U204emM1L2FWc2x4L3dhLzVNTjVDYWVnQ0ZnSWFFZ3dkM3FIRS9lSgpEUVlNbzl2SWNGKzJSTWd1TUlCRnZVbUM1TjYya00zQ3pZajFVT0lwUVEvTjVoa2g1M0FheWRqbFBNNnhoMWRQClYwTWhaVjJXem9jc1JCOGZnRnpVREMzeU53TFFLMW4vT09EeU0yclVpR3lsSFdha091VE1zWktYY2srMXBhTTYKVFdvTUk3YUZQS0d0SjZ5SnhTWXJiVDF0OHRHSGRkLytPN29OZEZMTWdQK1NpcWpZVXdqQlFnWVBBWVl2d2t3dQpQbTh5Y3RPUEFhV3JkQUQwMXlieDU4S21OWGYvUXJOMzZ1VWtRbTdmaVFLQmdRRDkxcHRYcmg5Z3N5SkhIaUNzCnhRU1d4SXhwdVhxRXZiRFIvYzJzdFRwQXdxbWxGNi9yV0lVQWtWRjVveHBlakhYdzJvYUpkUlEyZ1l5elY0dDMKQWo0NVRuZGZrUjltZXJlNFI4U1ZEZXdPMHFlK0FtaUZpWjdXeDFENUFSYnBBR0tyR1hCRjFvSzBBbmE1ODdLVApaN2M1ZTlZaXMzWWJwSmdmampCUDdSejdsd0tCZ1FESlRoN3d0V21IaC9SMU1HQ1M3RUZLUGlGZW42VUhtaVRFCjkzcU5YRkhLbkZwcmltaVpLd0RUWjArMC9SZlFVUVNiWkcxQjNLQ2hYcEhzSmEwSHFjdFlKSjhVaU1qdFdUVm0KdkZvM01CbUdFOTh2QnJ0Nk94SVYvemcwdW1vejF5ZDJ2RUZNNUhaRm81SzNLcDhNb3JVTWt0R3NOYTBnVTBBVgpBQS9rUUNHa0V3S0JnUURDNmt3V28rb01Rd0dMUXFNc2g0emlpTUtaWEllcjdrMGNzcHVBaHhqWUthSkMxMUdLCmtrcHZDU2RiRTlkbnlzdTF5dGVNTFk3NzI3YkM3L0p6ekJFanlCRDZIV0hUTzJCZjdSd1NxTUlmRDdzbXVJcXkKSDk4TVpialR1L1p2ckpBWGVrMHdFMndCOWZKZEQ3aU1ZQlBkM0MydUw4ZjlxZ0gyR1NVWCtxZEt1UUtCZ0NLcAp6aEFhM09vV2toU2YyUEZUdDBabWZtNkJ4UFFUS2VPMHphaUx6aFc2YUtOOStOYnZIYnhKWE9OSWRaSk1jU09rCjNsOXA4MHIyTXVCYitIaUtWMVo5TDl0a1ZsendjSTZaUGx1a2I3Q3p1VW1xdWh1cEVrc3hZR2RMOWorbys4V3AKVXdFL2tkSWFBWWlDMFZKbXJoQlZNNytZbXBBblpiQjRDMFI5ZW8xN0FvR0FBWDQySktSVldwTUY0UTJzdW1pOQpiRTRURmFuZFJlcXFFTmFwdUI2WGdwUVIvN3E5TzdwYzBNeThOZjVONVN6TmhyK2JaM09PV0U0YUxPTWJFQ0tqCkM5U25yVEN5MURqMHM2eW55WExzTzhXVlVMV2ZUNmdvNEQwS21pOWNmb3c3VG9OcVVOSmxZWnRoUzV3Mk1iemgKbW13SDVQbVJoV3RaUzdKUFpsYjdSRzg9Ci0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0K",
+    "SELFSIGNEDROOTCA": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUVNakNDQXhxZ0F3SUJBZ0lKQUx1TUVxZmQvL0dITUEwR0NTcUdTSWIzRFFFQkN3VUFNRVV4Q3pBSkJnTlYKQkFZVEFrUkZNUnN3R1FZRFZRUUtEQkpVZDJsdVEwRlVJRWhOU1NCVFpYSjJaWEl4R1RBWEJnTlZCQU1NRUZSbAphMDV2ZEdVdE1EQTBYM0p2YjNRd0lCY05NalV3TkRBNU1UY3pNRFV3V2hnUE1qQTJNekE0TURneE56TXdOVEJhCk1FVXhDekFKQmdOVkJBWVRBa1JGTVJzd0dRWURWUVFLREJKVWQybHVRMEZVSUVoTlNTQlRaWEoyWlhJeEdUQVgKQmdOVkJBTU1FRlJsYTA1dmRHVXRNREEwWDNKdmIzUXdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBdwpnZ0VLQW9JQkFRRFJreWRGNDRnNFpuY0ZuaWcvdXFtdWZ2c0NvZ29KSEpRQlJmRzlYTCtSS2JXOThJQUZHQW15CkhwZ1pPQlFnL2FzK0QxVFRGWElpUEZBNXd6Sng1ZlRVRmNEc3hFbVVkLzgzMGpZa1hnQkFWTnhqMXdNdW1GckkKZTlWcExVaUh2My9qWTVNa0dNMjlGcGRmZWJiRnpaSk00ak5vQXJ5azAyeVdid3BLMEdmL0RxQ1AvYkc4c2IvUgp4MklrdG5hM2psZ2x3dVR0MDcyOFE5c1RYNlVzZjVxOTJodG9SZlZlbklDT3pWWW9Da1Jqdjk0UWZMT3NMQkt5CkVlUnhOWjBNQUFoOTZQTVdsK1lNSTdJMmg5V1p5ZnFlV3lvZy9jRDRTYkxacllVMXV1eEQ2d0ltY0grRVdyenUKc3dsd3BrZGNpMEVyTXpVNDV0N3VSRHA4dlFsbDJzT2ZBZ01CQUFHamdnRWhNSUlCSFRDQjZnWURWUjBSQklIaQpNSUhmZ2dsc2IyTmhiR2h2YzNTSEJIOEFBQUdIRUFBQUFBQUFBQUFBQUFBQUFBQUFBQUdDQzFSbGEwNXZkR1V0Ck1EQTBnZ3RVWld0T2IzUmxMVEF3TkljRVpHOXZaNGNFd0tnQmI0Y0V3S2dCZjRjUUtBUVEvQU4zT1FBSERwSE8KaXp4cVhJY1FLQVFRL0FOM09RQ2JLQjgxNWhnN21ZY1FLQVFRL0FOM09RQ2x1V0IzZkYxTGdZY1FLQVFRL0FOMwpPUURnNVpaVE5Ya0RCb2NRL1hvUlhLSGdBQUFBQUFBQWV1OXZaNGNRL29BQUFBQUFBQUJQeVJkMXVqcCszNGNRCi9vQUFBQUFBQUFEVlA3UVU0VjBDSDRjUS9vQUFBQUFBQUFEWS8xQmc4akNSYURBZEJnTlZIUTRFRmdRVVpLcWQKd3ZqaUpzaTV4bEY0M3pBaGkvRm90YUV3RHdZRFZSMFRBUUgvQkFVd0F3RUIvekFOQmdrcWhraUc5dzBCQVFzRgpBQU9DQVFFQWdLekhKNjRaaTMzeENzd0ZLMnhZekphQXAva3RNaFZjbnFGOE1QOGJaR043Qk1ZK2Uxbi90Y2tyCkZZY0VhSXdwYTc3MkdnQjVXWm1sTkRZZ1NiTG4yV2I1bmFncGZObHFrOWU4QkZyZXdpdTRJQzFQZFFkVmg1S3kKMmJYeWJjdWIzV25SeXB6dFRGZEpETEFtemJZQVVJL1FTZjhrcUwyUkQ2SHRJTkMyZEhrR0ZsSjV4R1BNaVd0VgpCVDBUN09XVG16WkhCc2pQbFpXNDRyekdFWWpxWEdhNVBMWi92QmxkUGV3alVEc2lTODVXc3JhcFZ2Yjh5MW9ECi9veFRLdkYrYjhYS2gvOVRzMlpUNi9DYkpuRitPZXUxdDl3WEJPWk1MVHkvSy9uZzRuSXV1cWxQVUw3c3pVRmsKRkUvbUlGdENyL2wranlOU1hPOXBuN09qMTFxbW9RPT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=",
+    "SELFSIGNEDROOTCAKEY": "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUV2Z0lCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktnd2dnU2tBZ0VBQW9JQkFRRFJreWRGNDRnNFpuY0YKbmlnL3VxbXVmdnNDb2dvSkhKUUJSZkc5WEwrUktiVzk4SUFGR0FteUhwZ1pPQlFnL2FzK0QxVFRGWElpUEZBNQp3ekp4NWZUVUZjRHN4RW1VZC84MzBqWWtYZ0JBVk54ajF3TXVtRnJJZTlWcExVaUh2My9qWTVNa0dNMjlGcGRmCmViYkZ6WkpNNGpOb0FyeWswMnlXYndwSzBHZi9EcUNQL2JHOHNiL1J4MklrdG5hM2psZ2x3dVR0MDcyOFE5c1QKWDZVc2Y1cTkyaHRvUmZWZW5JQ096VllvQ2tSanY5NFFmTE9zTEJLeUVlUnhOWjBNQUFoOTZQTVdsK1lNSTdJMgpoOVdaeWZxZVd5b2cvY0Q0U2JMWnJZVTF1dXhENndJbWNIK0VXcnp1c3dsd3BrZGNpMEVyTXpVNDV0N3VSRHA4CnZRbGwyc09mQWdNQkFBRUNnZ0VBRThyVW5WZkNZdnZmcHhBcllrUVJYUUZ4QTBGUHRxYys4eFVxb2crWVVwcWcKZkxKY2ozUHR0bnl5aGU4ek4zVVMyYncrUStaMVE2RWVrb0NmZGFlYUJQZytUWE5jTk93QVFSZ0JOUDRMclYwQQovZ3pZVXNEZ3ZLa0ttL0dZTlU4ZDdOa0NsRzRqUUFXdmdMelFuaGhaVzI3TUhBNlF4NkE2cVJwamhuS1lOUkRUCmV1UmFnVDRCSm1ZbDlyYkVISjZEYmhoQkN6VG5sQklTWUp2M2JlOXowVGFicU4vYVVHK05GV3A2RE5UVmpUSmoKL0lJYzRtY3dERmFPMnprYTdGakFHdTE2aU05U1J6dDA2L1RFT1ExM3IrQ2d1VkdWZmxnZWczcWhPY0FubDk3KwpZMXMrUUd1dlVQMVowVTM1V0pxZ2F4cDZKN25kSDRINnM5a29wTW4yQVFLQmdRRHRhWFBOMGZ5SyswU2FsL0hJClVYSHBNbGxmSjA0aXpzWldMY3FWNDBXSFh2WnRnM1NkWUZuQisxTDhsNEx3ZDJzQ2RNbE56UmhxTEdVUUxrVWsKakF2OGtVb3ljcWh1blBxQUE2RVdwRVYxTmtMREFzR1EreCtLb1ZtU0NaSWQvaCtMRU54S3puYUNDTitSUzAzTAoxSzkvalFKTVZPdmZlT2JwcFNRa0FLU1Bmd0tCZ1FEaCs4QUxLL3VXWVJMQjhiY2JySHVCODdOMUZuWkUyd0NkCjBzbzRyZDArUDY5cTJyN25DVzhUaFNoUGpsNXJWUjNGUTI1bmowWVNzL0tENURJUVg5Q3RkODRRa1A5eE5RU0UKRUU3NEx1bWlGVnY5ZTZ2M3ZZTDNVZDZlblNneTNObW52UTJUb3A2a3N6b21lS0R5MGlVUHpXT0tEZFptTXVSeQo1MUlDZlFuYjRRS0JnRnU3QlAyZmh2NkVPMnVvRGNtaWZtcm1BMVlhcjd3UFBOOExibDBmcFR1NjIyaFJCSHZTClFKd002WEdqY1BwTWlkSTNJWmlvQ0NqdDRsYXdLaE1HOFpLeTZJSTVmdzdPSkpQVjB5WVdicWZ0UVRwc0ZESmEKZFVOeE9GU08waUE0a2lOL2JqNlJLNFR1dk1NODMyQkVXMUxqUHVJVFpkZkF0U2ZOb1Bzd0xHVXRBb0dCQUxwMApGZUxoMmtZY04vYlBjZTRpWlJFMnV2VzduNzkyRnM4aEVYcXNjV1FmOWFNcmN1RjdWaXQ3N1dPZXF1YlNKcXNRCjFQSWJNNHpRN2lMR1VFeFVVZ0FlWG1ZcXpLaGlQeVNidEJ4djBKTE1Ic2RKbC96algwQ2lTeFVCeEI0YlBIWjYKdE00QUdmYjRiZDA2SUVuWSszMUxVSHFpcWloT2kxRUc3UkppaXBUaEFvR0JBTHJjRFRuWUZMbVVrWjZ3eFFBMwoxRUVVQ294NFh2L1RTMzRZWGVDRGtWQ2YwcWFyNzZ4MjBNU2kyK0hVL2xvTG5IZTEreXdzY2E0bjhycG1iV01NCkk2T2o2bmFrZFROOWFHTWZtbEZjWS9TUjZHQi9yN2IxdHczeWgydnZXSlJRNkVJY01ja2xHSFJ5ZFRPYmpualgKQW43UUtFS0xDejZveDFCcDhiNWZEbXBzCi0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0K",
     "SESSIONSTORAGE": {},
     "SHOW_CONFIGURATION_HINTS": true,
     "SHOW_MAINTENANCE_MODE": true,
@@ -1460,7 +1289,7 @@
                 "function": true,
                 "properties": {
                     "AdsState": {
-                        "$ref": "tchmi:server#/definitions/adsState"
+                        "$ref": "tchmi:server#/definitions/ADS-adsState"
                     },
                     "DeviceState": {
                         "type": "integer"
@@ -1557,7 +1386,7 @@
                 "writeValue": {
                     "properties": {
                         "AdsState": {
-                            "$ref": "tchmi:server#/definitions/adsState"
+                            "$ref": "tchmi:server#/definitions/ADS-adsState"
                         },
                         "DeviceState": {
                             "$ref": "tchmi:general#/definitions/UINT32"
@@ -1677,63 +1506,52 @@
                         "additionalProperties": {
                             "properties": {
                                 "adsApplicationName": {
-                                    "hidden": true,
                                     "propertyOrder": 5,
-                                    "readOnly": true,
-                                    "type": "string"
+                                    "type": "string",
+                                    "visibility": "HideInEngineering"
                                 },
                                 "adsProjectCompiledAt": {
                                     "format": "date-time",
-                                    "hidden": true,
                                     "propertyOrder": 7,
-                                    "readOnly": true,
-                                    "type": "string"
+                                    "type": "string",
+                                    "visibility": "HideInEngineering"
                                 },
                                 "adsProjectName": {
                                     "propertyOrder": 6,
-                                    "readOnly": true,
                                     "type": "string"
                                 },
                                 "adsState": {
                                     "propertyOrder": 3,
-                                    "readOnly": true,
                                     "type": "string"
                                 },
                                 "adsVersion": {
                                     "propertyOrder": 8,
-                                    "readOnly": true,
                                     "type": "string"
                                 },
                                 "adsVersionBuild": {
-                                    "hidden": true,
-                                    "minimum": 0.0,
+                                    "minimum": 0,
                                     "propertyOrder": 9,
-                                    "readOnly": true,
-                                    "type": "integer"
+                                    "type": "integer",
+                                    "visibility": "HideInEngineering"
                                 },
                                 "connectionState": {
                                     "propertyOrder": 1,
-                                    "readOnly": true,
                                     "type": "string"
                                 },
                                 "deviceName": {
                                     "propertyOrder": 4,
-                                    "readOnly": true,
                                     "type": "string"
                                 },
                                 "isUserModeRuntime": {
-                                    "hidden": true,
                                     "propertyOrder": 10,
-                                    "readOnly": true,
-                                    "type": "boolean"
+                                    "type": "boolean",
+                                    "visibility": "HideInEngineering"
                                 },
                                 "systemServiceAdsState": {
                                     "propertyOrder": 2,
-                                    "readOnly": true,
                                     "type": "string"
                                 }
                             },
-                            "readOnly": true,
                             "required": [
                                 "deviceName",
                                 "adsVersion",
@@ -1742,26 +1560,10 @@
                             ],
                             "type": "object"
                         },
-                        "readOnly": true,
                         "type": "object"
                     }
                 },
-                "readOnly": true,
                 "type": "object"
-            },
-            "SUBSYMBOL_MAPPING": "",
-            "USEMAPPING": true
-        },
-        "ADS.GetDefinitions": {
-            "ACCESS": 3,
-            "CUSTOMERDATA": "",
-            "DOMAIN": "ADS",
-            "DYNAMIC": false,
-            "HIDDEN": true,
-            "MAPPING": "GetDefinitions",
-            "OPTIONS": {},
-            "SCHEMA": {
-                "function": true
             },
             "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
@@ -1969,12 +1771,23 @@
                             "type": "string"
                         },
                         "parameters": {
-                            "allOf": [
+                            "anyOf": [
                                 {
-                                    "$ref": "tchmi:general#/definitions/Any"
+                                    "additionalProperties": true,
+                                    "description": "Parameters that are forwarded to the authentication extension's AddUser function. Notice that the userName without the domain is forwarded automatically.",
+                                    "properties": {
+                                        "password": {
+                                            "format": "masked",
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "password"
+                                    ],
+                                    "type": "object"
                                 },
                                 {
-                                    "description": "Parameters that are forwarded to the authentication extension's AddUser function. Notice that the userName without the domain is forwarded automatically."
+                                    "$ref": "tchmi:general#/definitions/VOID"
                                 }
                             ]
                         },
@@ -2026,6 +1839,21 @@
             "OPTIONS": {},
             "SCHEMA": {
                 "function": true,
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "symbolCount": {
+                        "type": "integer"
+                    },
+                    "validSymbolCount": {
+                        "type": "boolean"
+                    }
+                },
+                "required": [
+                    "name"
+                ],
+                "type": "object",
                 "writeValue": {
                     "properties": {
                         "ACCESS": {
@@ -2041,6 +1869,11 @@
                         "AUTOMAP": {
                             "default": false,
                             "description": "Automatically obtain symbol information such as options and schema from the domain.",
+                            "type": "boolean"
+                        },
+                        "CHECKCOMPLEXITY": {
+                            "default": false,
+                            "description": "Do not add symbol, check complexity of added symbol instead",
                             "type": "boolean"
                         },
                         "CUSTOMERDATA": {
@@ -2075,14 +1908,23 @@
                             "type": "boolean"
                         },
                         "USERGROUPS": {
-                            "items": {
-                                "type": "string"
-                            },
-                            "type": "array"
+                            "anyOf": [
+                                {
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "type": "array"
+                                },
+                                {
+                                    "additionalProperties": {
+                                        "$ref": "tchmi:server#/definitions/accessEnum"
+                                    },
+                                    "type": "object"
+                                }
+                            ]
                         }
                     },
                     "required": [
-                        "NAME",
                         "DOMAIN",
                         "MAPPING"
                     ],
@@ -2132,6 +1974,29 @@
                         "ignoreProblems": {
                             "default": false,
                             "type": "boolean"
+                        },
+                        "limit": {
+                            "allOf": [
+                                {
+                                    "$ref": "tchmi:general#/definitions/INT32"
+                                },
+                                {
+                                    "default": 1000,
+                                    "minimum": 1
+                                }
+                            ]
+                        },
+                        "namePrefix": {
+                            "default": "",
+                            "type": "string"
+                        },
+                        "options": {
+                            "additionalProperties": {},
+                            "type": "object"
+                        },
+                        "path": {
+                            "default": "",
+                            "type": "string"
                         },
                         "skipExisting": {
                             "default": false,
@@ -2303,6 +2168,10 @@
             "OPTIONS": {},
             "SCHEMA": {
                 "function": true,
+                "versions": [
+                    1.0,
+                    2.0
+                ],
                 "writeValue": {
                     "$ref": "tchmi:server#/definitions/event"
                 }
@@ -2316,10 +2185,10 @@
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
-            "MAPPING": "Config::DEFAULTAUTHEXTENSION",
+            "MAPPING": "DefaultAuthExtension",
             "OPTIONS": {},
             "SCHEMA": {
-                "function": true,
+                "default": "TcHmiUserManagement",
                 "type": "string"
             },
             "SUBSYMBOL_MAPPING": "",
@@ -2331,11 +2200,13 @@
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
-            "MAPPING": "Config::DEFAULTUSERGROUP",
+            "MAPPING": "DefaultUserGroup",
             "OPTIONS": {},
             "SCHEMA": {
+                "const": "__SystemUsers",
                 "function": true,
-                "type": "string"
+                "type": "string",
+                "visibility": "HideInEngineering"
             },
             "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
@@ -2400,66 +2271,52 @@
                 "function": true,
                 "properties": {
                     "ACCEPTEDSOCKETS": {
-                        "readOnly": true,
                         "type": "integer"
                     },
                     "ACTIVESESSIONS": {
                         "link": "Sessions",
-                        "readOnly": true,
                         "type": "integer"
                     },
                     "ACTIVESOCKETS": {
-                        "readOnly": true,
                         "type": "integer"
                     },
                     "ARCHITECTURE": {
-                        "readOnly": true,
                         "type": "string"
                     },
                     "DISCOVERY_RUNNING": {
-                        "hidden": true,
-                        "readOnly": true,
-                        "type": "boolean"
+                        "type": "boolean",
+                        "visibility": "HideInEngineering"
                     },
                     "DOTNETCLASSICVERSIONS": {
                         "items": {
-                            "readOnly": true,
                             "type": "string"
                         },
-                        "readOnly": true,
                         "type": "array"
                     },
                     "DOTNETCOREVERSIONS": {
                         "items": {
-                            "readOnly": true,
                             "type": "string"
                         },
-                        "readOnly": true,
                         "type": "array"
                     },
                     "DOTNETVERSIONS": {
                         "items": {
-                            "readOnly": true,
                             "type": "string"
                         },
-                        "readOnly": true,
                         "type": "array"
                     },
                     "LICENSE": {
                         "properties": {
                             "CLIENTS": {
                                 "propertyOrder": 2,
-                                "readOnly": true,
                                 "type": "integer"
                             },
                             "EXTENSIONS": {
                                 "propertyOrder": 6,
-                                "readOnly": true,
                                 "type": "boolean"
                             },
                             "SERVERS": {
                                 "propertyOrder": 1,
-                                "readOnly": true,
                                 "type": "integer"
                             },
                             "STATE": {
@@ -2473,45 +2330,32 @@
                                     "OK"
                                 ],
                                 "propertyOrder": 7,
-                                "readOnly": true,
                                 "type": "string"
                             },
                             "TARGETS": {
                                 "propertyOrder": 4,
-                                "readOnly": true,
                                 "type": "integer"
                             },
                             "USEDCLIENTS": {
                                 "propertyOrder": 3,
-                                "readOnly": true,
                                 "type": "integer"
                             },
                             "USEDTARGETS": {
                                 "propertyOrder": 5,
-                                "readOnly": true,
                                 "type": "integer"
                             }
                         },
-                        "readOnly": true,
                         "type": "object"
                     },
                     "MEMORYUSAGE": {
-                        "displayClass": "megabyte",
-                        "readOnly": true,
-                        "type": "number"
+                        "type": "number",
+                        "unit": "megabyte"
                     },
                     "REMOTESERVERS": {
                         "additionalProperties": {
                             "properties": {
                                 "REMOTE_ERROR": {
-                                    "allOf": [
-                                        {
-                                            "$ref": "tchmi:general#/definitions/errorDetails"
-                                        },
-                                        {
-                                            "readOnly": true
-                                        }
-                                    ]
+                                    "$ref": "tchmi:general#/definitions/errorDetails"
                                 },
                                 "REMOTE_STATUS": {
                                     "enum": [
@@ -2521,7 +2365,6 @@
                                         "Disabled"
                                     ],
                                     "propertyOrder": 1,
-                                    "readOnly": true,
                                     "type": "string"
                                 }
                             },
@@ -2530,31 +2373,25 @@
                             ],
                             "type": "object"
                         },
-                        "readOnly": true,
                         "type": "object"
                     },
                     "SERVERTIME": {
                         "format": "date-time",
-                        "readOnly": true,
                         "type": "string"
                     },
                     "TRAFFICIN": {
-                        "displayClass": "byte",
-                        "readOnly": true,
-                        "type": "number"
+                        "type": "number",
+                        "unit": "byte"
                     },
                     "TRAFFICOUT": {
-                        "displayClass": "byte",
-                        "readOnly": true,
-                        "type": "number"
+                        "type": "number",
+                        "unit": "byte"
                     },
                     "UPTIME": {
                         "format": "timespan",
-                        "readOnly": true,
                         "type": "string"
                     }
                 },
-                "readOnly": true,
                 "type": "object"
             },
             "SUBSYMBOL_MAPPING": "",
@@ -2809,37 +2646,86 @@
             "MAPPING": "GetSchema",
             "OPTIONS": {},
             "SCHEMA": {
-                "function": true,
-                "writeValue": {
-                    "properties": {
-                        "resolve": {
-                            "default": "None",
-                            "enum": [
-                                "AddRefs",
-                                "Simplify",
-                                "AddAllRefs",
-                                "None"
+                "anyOf": [
+                    {
+                        "function": true,
+                        "versions": [
+                            1.0
+                        ],
+                        "writeValue": {
+                            "properties": {
+                                "resolve": {
+                                    "default": "None",
+                                    "enum": [
+                                        "AddRefs",
+                                        "Simplify",
+                                        "AddAllRefs",
+                                        "None"
+                                    ],
+                                    "type": "string"
+                                },
+                                "symbol": {
+                                    "description": "Name of the symbol.",
+                                    "type": "string"
+                                },
+                                "type": {
+                                    "default": "Read",
+                                    "enum": [
+                                        "Read",
+                                        "Write"
+                                    ],
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "symbol"
                             ],
-                            "type": "string"
-                        },
-                        "symbol": {
-                            "description": "Name of the symbol.",
-                            "type": "string"
-                        },
-                        "type": {
-                            "default": "Read",
-                            "enum": [
-                                "Read",
-                                "Write"
-                            ],
-                            "type": "string"
+                            "type": "object"
                         }
                     },
-                    "required": [
-                        "symbol"
-                    ],
-                    "type": "object"
-                }
+                    {
+                        "function": true,
+                        "versions": [
+                            2.0
+                        ],
+                        "writeValue": {
+                            "properties": {
+                                "mergeSettings": {
+                                    "default": true,
+                                    "description": "Merge settings from the symbol configuration into the schema.",
+                                    "type": "boolean"
+                                },
+                                "resolve": {
+                                    "default": "None",
+                                    "enum": [
+                                        "AddRefs",
+                                        "Simplify",
+                                        "AddAllRefs",
+                                        "AllVersions",
+                                        "None"
+                                    ],
+                                    "type": "string"
+                                },
+                                "symbol": {
+                                    "description": "Name of the symbol.",
+                                    "type": "string"
+                                },
+                                "type": {
+                                    "default": "Read",
+                                    "enum": [
+                                        "Read",
+                                        "Write"
+                                    ],
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "symbol"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                ]
             },
             "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
@@ -2929,6 +2815,37 @@
             "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
+        "IsSymbolOutdated": {
+            "ACCESS": 3,
+            "DOMAIN": "TcHmiSrv",
+            "DYNAMIC": false,
+            "HIDDEN": true,
+            "MAPPING": "IsSymbolOutdated",
+            "OPTIONS": {},
+            "SCHEMA": {
+                "enum": [
+                    "SYMBOL_UP_TO_DATE",
+                    "SYMBOL_SCHEMA_DIFFERENCE",
+                    "SYMBOL_INVALID_DOMAIN",
+                    "SYMBOL_INVALID_SYMBOL"
+                ],
+                "function": true,
+                "type": "string",
+                "writeValue": {
+                    "properties": {
+                        "symbol": {
+                            "description": "Name of the symbol.",
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "symbol"
+                    ],
+                    "type": "object"
+                }
+            },
+            "USEMAPPING": true
+        },
         "ListActiveSessions": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2998,9 +2915,9 @@
                                                 "type": "string"
                                             },
                                             "readValueJsonLength": {
-                                                "displayClass": "byte",
-                                                "minimum": 0.0,
-                                                "type": "integer"
+                                                "minimum": 0,
+                                                "type": "integer",
+                                                "unit": "byte"
                                             },
                                             "symbol": {
                                                 "type": "string"
@@ -3020,9 +2937,9 @@
                                     "type": "integer"
                                 },
                                 "readValueJsonLength": {
-                                    "displayClass": "byte",
-                                    "minimum": 0.0,
-                                    "type": "integer"
+                                    "minimum": 0,
+                                    "type": "integer",
+                                    "unit": "byte"
                                 },
                                 "type": {
                                     "enum": [
@@ -3116,6 +3033,10 @@
                             "description": "The name of the extension.",
                             "type": "string"
                         },
+                        "friendlyName": {
+                            "description": "A more readable name version of the extension name.",
+                            "type": "string"
+                        },
                         "guid": {
                             "description": "The globally unique identifier associated with the extension.",
                             "type": "string"
@@ -3193,11 +3114,12 @@
                 "items": {
                     "oneOf": [
                         {
+                            "additionalProperties": false,
                             "properties": {
                                 "domain": {
                                     "type": "string"
                                 },
-                                "localizedText": {
+                                "localizedString": {
                                     "type": "string"
                                 },
                                 "name": {
@@ -3230,11 +3152,12 @@
                                 "name",
                                 "domain",
                                 "timeReceived",
-                                "localizedText"
+                                "localizedString"
                             ],
                             "type": "object"
                         },
                         {
+                            "additionalProperties": false,
                             "properties": {
                                 "domain": {
                                     "type": "string"
@@ -3277,35 +3200,94 @@
             "MAPPING": "ListFiles",
             "OPTIONS": {},
             "SCHEMA": {
-                "additionalProperties": {
-                    "allOf": [
-                        {
-                            "$ref": "tchmi:server#/definitions/fileInfo"
+                "anyOf": [
+                    {
+                        "additionalProperties": {
+                            "allOf": [
+                                {
+                                    "$ref": "tchmi:server#/definitions/fileInfo"
+                                },
+                                {
+                                    "properties": {
+                                        "link": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "fileFlags"
+                                    ]
+                                }
+                            ]
                         },
-                        {
-                            "properties": {
-                                "link": {
+                        "function": true,
+                        "type": "object",
+                        "versions": [
+                            1.0
+                        ],
+                        "writeValue": {
+                            "anyOf": [
+                                {
                                     "type": "string"
+                                },
+                                {
+                                    "type": "null"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "additionalProperties": {
+                            "allOf": [
+                                {
+                                    "$ref": "tchmi:server#/definitions/fileInfo"
+                                },
+                                {
+                                    "properties": {
+                                        "hash": {
+                                            "description": "The md5 hash of the file",
+                                            "type": "string"
+                                        },
+                                        "link": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "fileFlags"
+                                    ]
+                                }
+                            ]
+                        },
+                        "function": true,
+                        "type": "object",
+                        "versions": [
+                            2.0
+                        ],
+                        "writeValue": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "hashes": {
+                                    "description": "If true, the hash of each file is returned.",
+                                    "type": "boolean"
+                                },
+                                "path": {
+                                    "description": "The path to list files from.",
+                                    "type": "string"
+                                },
+                                "recursive": {
+                                    "description": "If true, the entire directory tree is returned.",
+                                    "type": "boolean"
                                 }
                             },
                             "required": [
-                                "fileFlags"
+                                "path"
+                            ],
+                            "type": "object",
+                            "versions": [
+                                2.0
                             ]
                         }
-                    ]
-                },
-                "function": true,
-                "type": "object",
-                "writeValue": {
-                    "oneOf": [
-                        {
-                            "type": "string"
-                        },
-                        {
-                            "type": "null"
-                        }
-                    ]
-                }
+                    }
+                ]
             },
             "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
@@ -3323,6 +3305,50 @@
                 "type": "object"
             },
             "SUBSYMBOL_MAPPING": "",
+            "USEMAPPING": true
+        },
+        "ListOutdatedSymbols": {
+            "ACCESS": 3,
+            "DOMAIN": "TcHmiSrv",
+            "DYNAMIC": false,
+            "HIDDEN": true,
+            "MAPPING": "ListOutdatedSymbols",
+            "OPTIONS": {},
+            "SCHEMA": {
+                "additionalProperties": {
+                    "enum": [
+                        "SYMBOL_SCHEMA_DIFFERENCE",
+                        "SYMBOL_INVALID_DOMAIN",
+                        "SYMBOL_INVALID_SYMBOL"
+                    ],
+                    "type": "string"
+                },
+                "function": true,
+                "type": "object",
+                "writeValue": {
+                    "anyOf": [
+                        {
+                            "properties": {
+                                "domain": {
+                                    "type": "string"
+                                },
+                                "ignoreHiddenSymbols": {
+                                    "default": false,
+                                    "type": "boolean"
+                                },
+                                "onlyDynamicSymbols": {
+                                    "default": false,
+                                    "type": "boolean"
+                                }
+                            },
+                            "type": "object"
+                        },
+                        {
+                            "$ref": "tchmi:general#/definitions/VOID"
+                        }
+                    ]
+                }
+            },
             "USEMAPPING": true
         },
         "ListSymbolNames": {
@@ -3344,8 +3370,22 @@
                     "anyOf": [
                         {
                             "properties": {
+                                "depth": {
+                                    "default": 1,
+                                    "maximum": 5,
+                                    "minimum": 1,
+                                    "type": "integer"
+                                },
                                 "domain": {
                                     "type": "string"
+                                },
+                                "ignoreHiddenSymbols": {
+                                    "default": false,
+                                    "type": "boolean"
+                                },
+                                "onlyDynamicSymbols": {
+                                    "default": false,
+                                    "type": "boolean"
                                 }
                             },
                             "type": "object"
@@ -3494,8 +3534,12 @@
                             "type": "boolean"
                         },
                         "password": {
-                            "format": "encrypted",
+                            "format": "masked",
                             "type": "string"
+                        },
+                        "persistPreviousSession": {
+                            "default": false,
+                            "type": "boolean"
                         },
                         "persistent": {
                             "default": false,
@@ -3905,7 +3949,7 @@
                         {
                             "properties": {
                                 "match": {
-                                    "$ref": "tchmi:server#/definitions/filter"
+                                    "$ref": "tchmi:server#/definitions/eventFilter"
                                 }
                             },
                             "required": [
@@ -3920,6 +3964,36 @@
                 }
             },
             "SUBSYMBOL_MAPPING": "",
+            "USEMAPPING": true
+        },
+        "TcHmiSqliteLogger.ClearLocalizations": {
+            "ACCESS": 3,
+            "DOMAIN": "TcHmiSqliteLogger",
+            "DYNAMIC": false,
+            "HIDDEN": true,
+            "MAPPING": "ClearLocalizations",
+            "OPTIONS": {},
+            "SCHEMA": {
+                "function": true,
+                "writeValue": {
+                    "anyOf": [
+                        {
+                            "properties": {
+                                "match": {
+                                    "$ref": "tchmi:server#/definitions/eventFilter"
+                                }
+                            },
+                            "required": [
+                                "match"
+                            ],
+                            "type": "object"
+                        },
+                        {
+                            "$ref": "tchmi:general#/definitions/VOID"
+                        }
+                    ]
+                }
+            },
             "USEMAPPING": true
         },
         "TcHmiSqliteLogger.Config": {
@@ -3953,44 +4027,37 @@
                                         "$ref": "tchmi:general#/definitions/INT64"
                                     },
                                     {
-                                        "displayClass": "byte",
                                         "propertyOrder": 1,
-                                        "readOnly": true
+                                        "unit": "byte"
                                     }
                                 ]
                             },
                             "numEvents": {
                                 "propertyOrder": 3,
-                                "readOnly": true,
                                 "type": "integer"
                             },
                             "numEventsWithAlarmPayload": {
                                 "propertyOrder": 7,
-                                "readOnly": true,
                                 "type": "integer"
                             },
                             "numEventsWithMessagePayload": {
                                 "propertyOrder": 5,
-                                "readOnly": true,
                                 "type": "integer"
                             },
                             "numPersistentEvents": {
-                                "hidden": true,
                                 "propertyOrder": 4,
-                                "readOnly": true,
-                                "type": "integer"
+                                "type": "integer",
+                                "visibility": "HideInEngineering"
                             },
                             "numPersistentEventsWithAlarmPayload": {
-                                "hidden": true,
                                 "propertyOrder": 8,
-                                "readOnly": true,
-                                "type": "integer"
+                                "type": "integer",
+                                "visibility": "HideInEngineering"
                             },
                             "numPersistentEventsWithMessagePayload": {
-                                "hidden": true,
                                 "propertyOrder": 6,
-                                "readOnly": true,
-                                "type": "integer"
+                                "type": "integer",
+                                "visibility": "HideInEngineering"
                             },
                             "persistentDatabaseSize": {
                                 "allOf": [
@@ -3998,14 +4065,12 @@
                                         "$ref": "tchmi:general#/definitions/INT64"
                                     },
                                     {
-                                        "displayClass": "byte",
                                         "propertyOrder": 2,
-                                        "readOnly": true
+                                        "unit": "byte"
                                     }
                                 ]
                             }
                         },
-                        "readOnly": true,
                         "required": [
                             "databaseSize",
                             "persistentDatabaseSize",
@@ -4023,36 +4088,30 @@
                             "properties": {
                                 "numEvents": {
                                     "propertyOrder": 1,
-                                    "readOnly": true,
                                     "type": "integer"
                                 },
                                 "numEventsWithAlarmPayload": {
                                     "propertyOrder": 5,
-                                    "readOnly": true,
                                     "type": "integer"
                                 },
                                 "numEventsWithMessagePayload": {
                                     "propertyOrder": 3,
-                                    "readOnly": true,
                                     "type": "integer"
                                 },
                                 "numPersistentEvents": {
-                                    "hidden": true,
                                     "propertyOrder": 2,
-                                    "readOnly": true,
-                                    "type": "integer"
+                                    "type": "integer",
+                                    "visibility": "HideInEngineering"
                                 },
                                 "numPersistentEventsWithAlarmPayload": {
-                                    "hidden": true,
                                     "propertyOrder": 6,
-                                    "readOnly": true,
-                                    "type": "integer"
+                                    "type": "integer",
+                                    "visibility": "HideInEngineering"
                                 },
                                 "numPersistentEventsWithMessagePayload": {
-                                    "hidden": true,
                                     "propertyOrder": 4,
-                                    "readOnly": true,
-                                    "type": "integer"
+                                    "type": "integer",
+                                    "visibility": "HideInEngineering"
                                 }
                             },
                             "required": [
@@ -4065,11 +4124,9 @@
                             ],
                             "type": "object"
                         },
-                        "readOnly": true,
                         "type": "object"
                     }
                 },
-                "readOnly": true,
                 "required": [
                     "allDomains",
                     "perDomain"
@@ -4123,7 +4180,7 @@
                         },
                         "password": {
                             "description": "Password of the user. Only a hash will be stored.",
-                            "format": "encrypted",
+                            "format": "masked",
                             "type": "string"
                         },
                         "userName": {
@@ -4154,11 +4211,15 @@
                 "writeValue": {
                     "properties": {
                         "currentPassword": {
-                            "format": "encrypted",
+                            "format": "masked",
                             "type": "string"
                         },
                         "newPassword": {
-                            "format": "encrypted",
+                            "format": "masked",
+                            "type": "string"
+                        },
+                        "twoFactorToken": {
+                            "format": "masked",
                             "type": "string"
                         }
                     },
@@ -4180,6 +4241,36 @@
             "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
+        "TcHmiUserManagement.Disable2FA": {
+            "ACCESS": 3,
+            "DOMAIN": "TcHmiUserManagement",
+            "DYNAMIC": false,
+            "HIDDEN": true,
+            "MAPPING": "Disable2FA",
+            "OPTIONS": {},
+            "SCHEMA": {
+                "function": true,
+                "type": "boolean",
+                "writeValue": {
+                    "properties": {
+                        "password": {
+                            "format": "masked",
+                            "type": "string"
+                        },
+                        "twoFactorToken": {
+                            "format": "masked",
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "password",
+                        "twoFactorToken"
+                    ],
+                    "type": "object"
+                }
+            },
+            "USEMAPPING": true
+        },
         "TcHmiUserManagement.DisableUser": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -4198,6 +4289,38 @@
             "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
+        "TcHmiUserManagement.Enable2FA": {
+            "ACCESS": 3,
+            "DOMAIN": "TcHmiUserManagement",
+            "DYNAMIC": false,
+            "HIDDEN": true,
+            "MAPPING": "Enable2FA",
+            "OPTIONS": {},
+            "SCHEMA": {
+                "function": true,
+                "type": "boolean",
+                "writeValue": {
+                    "properties": {
+                        "password": {
+                            "type": "string"
+                        },
+                        "secret": {
+                            "type": "string"
+                        },
+                        "twoFactorToken": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "password",
+                        "secret",
+                        "twoFactorToken"
+                    ],
+                    "type": "object"
+                }
+            },
+            "USEMAPPING": true
+        },
         "TcHmiUserManagement.EnableUser": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -4214,6 +4337,83 @@
                 }
             },
             "SUBSYMBOL_MAPPING": "",
+            "USEMAPPING": true
+        },
+        "TcHmiUserManagement.Get2FAStatus": {
+            "ACCESS": 3,
+            "DOMAIN": "TcHmiUserManagement",
+            "DYNAMIC": false,
+            "HIDDEN": true,
+            "MAPPING": "Get2FAStatus",
+            "OPTIONS": {},
+            "SCHEMA": {
+                "enum": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "options": [
+                    {
+                        "description": "2FA is enabled.",
+                        "label": "2FAEnabled",
+                        "value": 0
+                    },
+                    {
+                        "description": "2FA can be enabled.",
+                        "label": "2FACanBeEnabled",
+                        "value": 1
+                    },
+                    {
+                        "description": "2FA cannot be enabled.",
+                        "label": "2FACannotBeEnabled",
+                        "value": 2
+                    },
+                    {
+                        "description": "2FA may be disabled.",
+                        "label": "2FACanBeDisabled",
+                        "value": 3
+                    },
+                    {
+                        "description": "2FA is enabled but not asked for",
+                        "label": "2FANotRequired",
+                        "value": 4
+                    }
+                ],
+                "type": "integer"
+            },
+            "USEMAPPING": true
+        },
+        "TcHmiUserManagement.GetComplexityRules": {
+            "ACCESS": 3,
+            "DOMAIN": "TcHmiUserManagement",
+            "DYNAMIC": false,
+            "HIDDEN": true,
+            "MAPPING": "GetComplexityRules",
+            "OPTIONS": {},
+            "SCHEMA": {
+                "additionalProperties": {
+                    "properties": {
+                        "localizationParameters": {
+                            "additionalProperties": {
+                                "type": "string"
+                            },
+                            "type": "object"
+                        },
+                        "regex": {
+                            "format": "regex",
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "regex"
+                    ],
+                    "type": "object"
+                },
+                "function": true,
+                "type": "object"
+            },
             "USEMAPPING": true
         },
         "TcHmiUserManagement.ListDisabledUsers": {
@@ -4299,6 +4499,22 @@
                 }
             },
             "SUBSYMBOL_MAPPING": "",
+            "USEMAPPING": true
+        },
+        "TcHmiUserManagement.Reset2FA": {
+            "ACCESS": 3,
+            "DOMAIN": "TcHmiUserManagement",
+            "DYNAMIC": false,
+            "HIDDEN": true,
+            "MAPPING": "Reset2FA",
+            "OPTIONS": {},
+            "SCHEMA": {
+                "function": true,
+                "type": "boolean",
+                "writeValue": {
+                    "type": "string"
+                }
+            },
             "USEMAPPING": true
         },
         "Unsubscribe": {
@@ -4425,6 +4641,7 @@
             "USEMAPPING": true
         }
     },
+    "SYMBOL_COMPLEXITY_LIMIT": 100,
     "TEMPDH": "",
     "THREADPOOLSIZE": 32,
     "UPLOADTIMEOUT": "PT20S",
@@ -4479,7 +4696,7 @@
                 "ADS.AdsSyncReadDeviceInfoReq": 3,
                 "ADS.AdsSyncReadStateReq": 3,
                 "ADS.CheckLicense": 3,
-                "ADS.Diagnostics": 1,
+                "ADS.Diagnostics": 3,
                 "ChangeUserSettings": 3,
                 "ConfirmAlarm": 3,
                 "CreateEvent": 3,
@@ -4504,8 +4721,12 @@
                 "Logout": 3,
                 "SetLocale": 3,
                 "SubscribeEvents": 3,
-                "TcHmiSqliteLogger.Diagnostics": 1,
+                "TcHmiSqliteLogger.Diagnostics": 3,
                 "TcHmiUserManagement.ChangePassword": 3,
+                "TcHmiUserManagement.Disable2FA": 3,
+                "TcHmiUserManagement.Enable2FA": 3,
+                "TcHmiUserManagement.Get2FAStatus": 3,
+                "TcHmiUserManagement.GetComplexityRules": 3,
                 "Unsubscribe": 3,
                 "UnsubscribeEvents": 3,
                 "UpdateEventsSubscription": 3,
@@ -4549,10 +4770,9 @@
     "VIRTUALDIRECTORIES": {
         "/": "..\\..\\AsteriscoViraNegrito\\",
         "/AsteriscoNegrito": "..\\..\\AsteriscoNegrito",
-        "/Beckhoff.TwinCAT.HMI.Controls": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Controls.12.754.4\\runtimes\\native1.12-tchmi",
-        "/Beckhoff.TwinCAT.HMI.Functions": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Functions.12.754.4\\runtimes\\native1.12-tchmi",
-        "/bin": "..\\..\\AsteriscoViraNegrito\\bin\\",
-        "/bin/framework": "..\\..\\AsteriscoViraNegrito\\bin\\framework",
-        "/framework": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Framework.12.754.4\\runtimes\\native1.12-tchmi"
+        "/Beckhoff.TwinCAT.HMI.Controls": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Controls.14.2.110\\runtimes\\native1.12-tchmi",
+        "/Beckhoff.TwinCAT.HMI.Framework": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Framework.14.2.110\\runtimes\\native1.12-tchmi",
+        "/Beckhoff.TwinCAT.HMI.Functions": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Functions.14.2.90\\runtimes\\native1.12-tchmi",
+        "/bin": "..\\..\\AsteriscoViraNegrito\\bin\\"
     }
 }
